@@ -1,15 +1,13 @@
 {
-    "BIDS-dataset": "https://drive.google.com/open?id=0B2JWN60ZLkgkdTBMXzI0RXVoUk0",
     "README": "file://./README",
     "CHANGES": "file://./CHANGES",
-    "dataset-description": "file://./dataset_description.json",
-    "participants": "file://./participants.tsv",
-    "tasks": [
-	{
-	    "name": "balloonanalogrisk",
-	    "description": "file://./task-balloonanalogrisktask_bold.json"
-	}
-    ],	      
+    "dataset-description": {
+	"BIDSVersion": "1.0.0",
+	"License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
+	"Name": "Balloon Analog Risk Task",
+	"ReferencesAndLinks": "Schonberg TS, Fox CR, Mumford JA, Congdon E, Trepel C, Poldrack RA (2012). Decreasing ventromedial prefrontal cortex activity during sequential risk-taking: An fMRI investigation of the Balloon Analogue Risk Task. Frontiers in Decision Neuroscience, 6:80 doi: 10.3389/fnins.2012.00080"
+    },
+    "participants": "file://./participants.tsv",	      
     "subjects": [
 	{
 	    "name": "sub-01",
@@ -22,16 +20,28 @@
 		    "runs": [{
 			"name": "run-01",
 			"task-name": "balloonanalogrisk",
+			"task-description": {
+			    "RepetitionTime": 2.0,
+			    "TaskName": "balloon analog risk task"
+			},
 			"events": "file://./sub-01/func/sub-01_task-balloonanalogrisktask_run-01_events.tsv",
 			"image": "file://./sub-01/func/sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz"
 		    }, {
 			"name": "run-02",
 			"task-name": "balloonanalogrisk",
+			"task-description": {
+			    "RepetitionTime": 2.0,
+			    "TaskName": "balloon analog risk task"
+			},
 			"events": "file://./sub-01/func/sub-01_task-balloonanalogrisktask_run-02_events.tsv",
 			"image": "file://./sub-01/func/sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz"
 		    }, {
 			"name": "run-03",
 			"task-name": "balloonanalogrisk",
+			"task-description": {
+			    "RepetitionTime": 2.0,
+			    "TaskName": "balloon analog risk task"
+			},
 			"events": "file://./sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.tsv",
 			"image": "file://./sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz"
 		    }]
@@ -48,16 +58,28 @@
 		    "runs": [{
 			"name": "run-01",
 			"task-name": "balloonanalogrisk",
+			"task-description": {
+			    "RepetitionTime": 2.0,
+			    "TaskName": "balloon analog risk task"
+			},		
 			"events": "file://./sub-02/func/sub-02_task-balloonanalogrisktask_run-01_events.tsv",
 			"image": "file://./sub-02/func/sub-02_task-balloonanalogrisktask_run-01_bold.nii.gz"
 		    }, {
 			"name": "run-02",
 			"task-name": "balloonanalogrisk",
+			"task-description": {
+			    "RepetitionTime": 2.0,
+			    "TaskName": "balloon analog risk task"
+			},
 			"events": "file://./sub-02/func/sub-02_task-balloonanalogrisktask_run-02_events.tsv",
 			"image": "file://./sub-02/func/sub-02_task-balloonanalogrisktask_run-02_bold.nii.gz"
 		    }, {
 			"name": "run-03",
 			"task-name": "balloonanalogrisk",
+			"task-description": {
+			    "RepetitionTime": 2.0,
+			    "TaskName": "balloon analog risk task"
+			},
 			"events": "file://./sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.tsv",
 			"image": "file://./sub-02/func/sub-02_task-balloonanalogrisktask_run-03_bold.nii.gz"
 		    }]
@@ -67,4 +89,4 @@
 	
     ]
 }
-    
+
