@@ -1,2 +1,3 @@
-# BIDS-json
-BIDS in JSON
+# APINE
+
+An API for NEuroscience
