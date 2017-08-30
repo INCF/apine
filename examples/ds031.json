@@ -1,0 +1,92 @@
+{
+    "BIDS-dataset": "https://drive.google.com/open?id=0B2JWN60ZLkgkdTBMXzI0RXVoUk0",
+    "README": "file://./README",
+    "CHANGES": "file://./CHANGES",
+    "dataset-description": {
+	"BIDSVersion": "1.0.0",
+	"License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
+	"Name": "Balloon Analog Risk Task",
+	"ReferencesAndLinks": "Schonberg TS, Fox CR, Mumford JA, Congdon E, Trepel C, Poldrack RA (2012). Decreasing ventromedial prefrontal cortex activity during sequential risk-taking: An fMRI investigation of the Balloon Analogue Risk Task. Frontiers in Decision Neuroscience, 6:80 doi: 10.3389/fnins.2012.00080"
+    },
+    "phasediff": 
+	{
+	    "RepetitionTime": 0.731,
+	    "EchoTime1": 0.00738,
+	    "EchoTime2": 0.00984
+	},
+    "task-breathhold_bold":
+	{
+		"TaskName": "breath hold",
+		"CogAtlasID": "http://www.cognitiveatlas.org/task/id/trm_4c898a680e424",
+		"RepetitionTime": 1.16,
+		"Manufacturer": "Siemens",
+		"ManufacturersModelName": "Skyra",
+		"MagneticFieldStrength": 3,
+		"PulseSequenceType": "Multiband EPI",
+		"EchoTime": 0.030,
+		"FlipAngle": 63,
+		"MultibandAccelerationFactor": 4,
+		"RepetitionTime": 1.16,
+		"EchoTime": 0.03,
+		"EffectiveEchoSpacing": 0.0003100013888062219
+	},
+
+    "task-dotstop_bold":
+	{
+		"TaskName": "dotstop",
+		"TaskDescription": "A motion discrimination task with an embedded stop signal task was performed 8 times across different sessions. On each trial, a moving dot stimulus (Britten et al., 1992) was presented, with coherence of either upward or downward motion varying across trials (levels: 0%, 10%, 30%, and 70% coherence). On 25% of trials, a visual stop signal (change of the fixation cross from white to red) was presented, at a delay controlled by a 1 up/1down staircase in order to ensure 50% stopping accuracy (Logan, 1994). The subject’s task was to perform the motion discrimination as quickly as possible, but withhold responses when the stop signal occurred (acquisition time = 7:11).",
+		"CogAtlasID": "http://www.cognitiveatlas.org/task/id/trm_558c3350c6a9f",
+		"Manufacturer": "Siemens",
+		"ManufacturersModelName": "Skyra",
+		"MagneticFieldStrength": 3,
+		"PulseSequenceType": "Multiband EPI",
+		"FlipAngle": 63,
+		"MultibandAccelerationFactor": 4,
+		"EchoTime": 0.03,
+		"RepetitionTime": 1.16,
+		"EffectiveEchoSpacing": 0.0003100013888062219
+	},
+
+    "T1w":
+	{
+		"Manufacturer": "Siemens",
+		"ManufacturersModelName": "Skyra",
+		"MagneticFieldStrength": 3,
+		"PulseSequenceType": "MPRAGE",
+		"FlipAngle": 8
+	},
+    "T2w":
+	{
+		"Manufacturer": "Siemens",
+		"ManufacturersModelName": "Skyra",
+		"MagneticFieldStrength": 3,
+		"PulseSequenceType": "T2-SPACE"
+	},
+
+    "subjects": [
+	{
+	    "name": "sub-01",
+	    "sessions": [{
+		    "name": "ses-001",
+	    	    "anatomical": [
+		    	{"modality": "T1w", "image": "file://./sub-01_ses-001_run-001_T1w.nii.gz"},
+		    	"sidecar": {
+		    		"RepetitionTime": 0.150, 
+		    		"EchoTime": 0.00374 },
+		    	{"modality": "T2w", "image": "file://./sub-01_ses-001_run-001_T1w.nii.gz", 
+		    	 "sidecar": "file://./sub-01_ses-001_run-001_T1w.json"}
+		    ],
+		    "name": "ses-002",
+	    	    "anatomical": [
+		    	{"modality": "T1w", "image": "file://./sub-01_ses-001_run-002_T1w.nii.gz"},
+		    	"sidecar": {
+		    		"RepetitionTime": 0.150, 
+		    		"EchoTime": 0.00374 },
+		    	{"modality": "T2w", "image": "file://./sub-01_ses-001_run-002_T1w.nii.gz", 
+		    	 "sidecar": "file://./sub-01_ses-001_run-002_T1w.json"}
+		    ]
+	    ]
+	}
+    ]
+}
+
