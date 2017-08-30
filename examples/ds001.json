@@ -8,8 +8,8 @@
 	"Name": "Balloon Analog Risk Task",
 	"ReferencesAndLinks": "Schonberg TS, Fox CR, Mumford JA, Congdon E, Trepel C, Poldrack RA (2012). Decreasing ventromedial prefrontal cortex activity during sequential risk-taking: An fMRI investigation of the Balloon Analogue Risk Task. Frontiers in Decision Neuroscience, 6:80 doi: 10.3389/fnins.2012.00080"
     },
-    "participants": "file://./participants.tsv",	      
-    "subjects": [
+    "demographics": "file://./participants.tsv",
+    "participants": [
 	{
 	    "name": "sub-01",
 	    "anatomical": [
