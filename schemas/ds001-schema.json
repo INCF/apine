@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "id": "http://github.com/INCF/apine/schemas/ds001-schema.json",
+    "type": "object",
+    "properties":{
+        "BIDS-dataset": {
+            "type": "string",
+            "required": "true" },
+        "CHANGES": {
+            "type": "string",
+            "required": "false" },
+        "README": {
+            "type": "string",
+            "required": "false" },
+        "Name": {
+            "type": "string",
+            "required": "false" },
+        "License": {
+            "type": "string",
+            "required": "false" },
+        "ReferencesAndLinks": {
+            "type": "string",
+            "required": "false" },
+        "participants-tsv": {
+            "type": "file",
+            "location": "string",
+            "required": "false" },
+        "subjects": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": "string",
+                   "anatomical": {
+                    "type": "array",
+                        "items": {
+                        "type": "object",
+                        "properties": {
+                            "modality": "string" }
+                        },
+                        "oneOf":[
+                            "required": ["T1w","T2w"]
+                            ]
+                        }
+                    }
+               }
+           }
+       }
+}
