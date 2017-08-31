@@ -8,14 +8,13 @@
 # Created 29/08/2017 initially by G. Kiar
 #
 # To install dependencies, in a fresh virtual environment run:
-#    pip install pybids duecredit pandas orderedDict
+#    pip install pybids duecredit
 #
 
 from argparse import ArgumentParser
 from bids.grabbids import BIDSLayout
 from collections import OrderedDict
 import os.path as op
-import pandas
 import json
 
 # Crawls BIDS dataset and turns it into a JSON
@@ -27,24 +26,35 @@ def craftBIDS(bids_dir):
     part = op.join(bids_dir, 'participants.tsv')
     sesh = op.join(bids_dir, 'sessions.tsv')
     scan = op.join(bids_dir, 'scans.tsv')
+    read = op.join(bids_dir, 'README')
+    chng = op.join(bids_dir, 'CHANGES')
 
     bids_dict['dataset_description'] = json.load(open(desc))
     if op.isfile(part): bids_dict['demographics'] = part
     if op.isfile(sesh): bids_dict['sessions'] = sesh
     if op.isfile(scan): bids_dict['scans'] = scan
+    if op.isfile(read): bids_dict['README'] = read
+    if op.isfile(chng): bids_dict['CHANGES'] = chng
     
     bids_dict['participants'] = OrderedDict()
     for subid in bids.get_subjects():
         part_dict = OrderedDict()
+        #TODO: remove once @zorro patches in grabbids
+        if not op.isdir(op.join(bids_dir, 'sub-{}'.format(subid))):
+            print("sub-{} detected, but no directory found!!".format(subid))
+            continue
         part_dict["sessions"] = OrderedDict()
         nosesh = len(bids.get_sessions()) == 0
-        sesh_array = [1] if nosesh else bids.get_sessions()
+        sesh_array = ["1"] if nosesh else bids.get_sessions()
         for sesid in sesh_array:
             sesh_dict = OrderedDict()
             for mod in bids.get_modalities():
                 sesh_dict[mod] = OrderedDict()
-                data = bids.get(subject=subid, session=sesid, modality=mod,
-                                extensions="nii|nii.gz")
+                if nosesh:
+                    data = bids.get(subject=subid, modality=mod, extensions="nii|nii.gz")
+                else:
+                    data = bids.get(subject=subid, session=sesid, modality=mod, extensions="nii|nii.gz")
+
                 for dat in data:
                     if mod != "func":
                         if bids.get_metadata(dat.filename) != {}:
@@ -61,6 +71,7 @@ def craftBIDS(bids_dir):
                         sesh_dict[mod][task]["metadata"] = bids.get_metadata(dat.filename)
                         sesh_dict[mod][task]["filename"] = dat.filename
                         sesh_dict[mod][task]["events"] = bids.get_events(dat.filename)
+
             part_dict["sessions"][sesid] = sesh_dict
         bids_dict['participants'][subid] = part_dict
     return bids_dict
