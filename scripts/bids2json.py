@@ -14,46 +14,57 @@
 from argparse import ArgumentParser
 from bids.grabbids import BIDSLayout
 from collections import OrderedDict
+import os.path as op
 import pandas
 import json
 
-# Turns BIDS dataset into JSON dictionary
-def crawlBIDS(bids_dir, metadata=None, outfile=None):
-    # Load BIDS directory as a data framei & initialize dict
-    bids_df = BIDSLayout(bids_dir).as_data_frame()
-    bids_dict = OrderedDict(metadata)
+# Crawls BIDS dataset and turns it into a JSON
+def craftBIDS(bids_dir):
+    bids = BIDSLayout(bids_dir)
+    bids_dict = OrderedDict()
 
-    task_dict = {}
-    # Iterate for each object in the dataset
-    for idx in range(len(bids_df)):
-        entry = bids_df.iloc[idx]
+    desc = op.join(bids_dir, 'dataset_description.json')
+    part = op.join(bids_dir, 'participants.tsv')
+    sesh = op.join(bids_dir, 'sessions.tsv')
+    scan = op.join(bids_dir, 'scans.tsv')
 
-        # Our action depends on the type of entry we're looking at
-        typ = entry.type
-        if typ == 'events':
-            print(entry)
-            #task_dict
-            pass
-        elif typ == 'description':
-            bids_dict['description'] = json.load(open(entry.path, 'r'))
-            #print(typ + 'description')
-        elif typ == 'dwi':
-            pass
-            #print(typ + 'dwi')
-        elif typ == 'bold':
-            pass
-            #print(typ + 'bold')
-        elif typ == 'T1w':
-            pass
-            #print(typ + 'T1w')
-        else:
-            if str(entry.bval) != 'nan' and entry.bval.endswith('.bval'):
-                pass
-                #print(entry.bval)
-            elif str(entry.bvec) != 'nan' and entry.bvec.endswith('.bvec'):
-                pass
-                #print(entry.bvec)
+    bids_dict['dataset_description'] = json.load(open(desc))
+    if op.isfile(part): bids_dict['demographics'] = part
+    if op.isfile(sesh): bids_dict['sessions'] = sesh
+    if op.isfile(scan): bids_dict['scans'] = scan
+    
+    bids_dict['participants'] = OrderedDict()
+    for subid in bids.get_subjects():
+        part_dict = OrderedDict()
+        part_dict["sessions"] = OrderedDict()
+        nosesh = len(bids.get_sessions()) == 0
+        sesh_array = [1] if nosesh else bids.get_sessions()
+        for sesid in sesh_array:
+            sesh_dict = OrderedDict()
+            for mod in bids.get_modalities():
+                sesh_dict[mod] = OrderedDict()
+                data = bids.get(subject=subid, session=sesid, modality=mod,
+                                extensions="nii|nii.gz")
+                for dat in data:
+                    if mod != "func":
+                        if bids.get_metadata(dat.filename) != {}:
+                            sesh_dict[mod]["metadata"] = bids.get_metadata(dat.filename)
+                        sesh_dict[mod]["filename"] = dat.filename
+                        if mod == "dwi":
+                            sesh_dict[mod]["bval"] = bids.get_nearest(dat.filename, extensions="bval")
+                            sesh_dict[mod]["bvec"] = bids.get_nearest(dat.filename, extensions="bvec")
+                    else:
+                        task = dat.task
+                        sesh_dict[mod][task] = OrderedDict()
+                        if bids.get_metadata(dat.filename) != {}:
+                            sesh_dict[mod][task]["metadata"] = bids.get_metadata(dat.filename)
+                        sesh_dict[mod][task]["metadata"] = bids.get_metadata(dat.filename)
+                        sesh_dict[mod][task]["filename"] = dat.filename
+                        sesh_dict[mod][task]["events"] = bids.get_events(dat.filename)
+            part_dict["sessions"][sesid] = sesh_dict
+        bids_dict['participants'][subid] = part_dict
     return bids_dict
+
 
 def main(args=None):
     parser = ArgumentParser("BIDS to JSON converter (leveraging pyBIDS)")
@@ -79,11 +90,13 @@ def main(args=None):
     else:
         metadata = None
 
-    bids_data = crawlBIDS(bids_dir, metadata)
+    bids_data = craftBIDS(bids_dir)
     if out_file is not None:
-        json.dump(bids_data, open(out_file, 'w'))
+        myjson = json.dumps(bids_data, indent=4)
+        with open(out_file, 'w') as fhandle:
+            fhandle.write(myjson)
     else:
-        print(bids_data)
+        print(json.dumps(bids_data, indent=4))
 
 
 if __name__ == "__main__":
