@@ -56,21 +56,29 @@ def craftBIDS(bids_dir):
                     data = bids.get(subject=subid, session=sesid, modality=mod, extensions="nii|nii.gz")
 
                 for dat in data:
-                    if mod != "func":
-                        if bids.get_metadata(dat.filename) != {}:
+                    if mod == 'anat':
+                        ty = dat.type
+                        sesh_dict[mod][ty] = OrderedDict()
+                        sesh_dict[mod][ty]["filename"] = dat.filename
+                        if bids.get_metadata(dat.filename) is not None:
+                            sesh_dict[mod]["metadata"] = bids.get_metadata(dat.filename)
+                    elif mod == "dwi":
+                        if bids.get_metadata(dat.filename) is not None:
                             sesh_dict[mod]["metadata"] = bids.get_metadata(dat.filename)
                         sesh_dict[mod]["filename"] = dat.filename
-                        if mod == "dwi":
-                            sesh_dict[mod]["bval"] = bids.get_nearest(dat.filename, extensions="bval")
-                            sesh_dict[mod]["bvec"] = bids.get_nearest(dat.filename, extensions="bvec")
-                    else:
+                        sesh_dict[mod]["bval"] = bids.get_bval(dat.filename)
+                        sesh_dict[mod]["bvec"] = bids.get_bvec(dat.filename)
+                    elif mod == "func":
                         task = dat.task
                         sesh_dict[mod][task] = OrderedDict()
-                        if bids.get_metadata(dat.filename) != {}:
+                        if bids.get_metadata(dat.filename) is not None:
                             sesh_dict[mod][task]["metadata"] = bids.get_metadata(dat.filename)
                         sesh_dict[mod][task]["metadata"] = bids.get_metadata(dat.filename)
                         sesh_dict[mod][task]["filename"] = dat.filename
-                        sesh_dict[mod][task]["events"] = bids.get_events(dat.filename)
+                        if bids.get_events(dat.filename) is not None:
+                            sesh_dict[mod][task]["events"] = bids.get_events(dat.filename)
+                    else:
+                        print("modality {} not found?".format(mod))
 
             part_dict["sessions"][sesid] = sesh_dict
         bids_dict['participants'][subid] = part_dict
