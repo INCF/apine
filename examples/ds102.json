@@ -1,0 +1,975 @@
+{
+    "dataset_description": {
+        "BIDSVersion": "1.0.0",
+        "License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
+        "Name": "Flanker task (event-related)",
+        "ReferencesAndLinks": "Kelly, A.M., Uddin, L.Q., Biswal, B.B., Castellanos, F.X., Milham, M.P. (2008). Competition between functional brain networks mediates behavioral variability. Neuroimage, 39(1):527-37\n\nMennes, M., Kelly, C., Zuo, X.N., Di Martino, A., Biswal, B.B., Castellanos, F.X., Milham, M.P. (2010). Inter-individual differences in resting-state functional connectivity predict task-induced BOLD activity. Neuroimage, 50(4):1690-701. doi: \n10.1016/j.neuroimage.2010.01.002. Epub 2010 Jan 15. Erratum in: Neuroimage. 2011 Mar 1;55(1):434\n\nMennes, M., Zuo, X.N., Kelly, C., Di Martino, A., Zang, Y.F., Biswal, B., Castellanos, F.X., Milham, M.P. (2011). Linking inter-individual differences in neural activation and behavior to intrinsic brain dynamics. Neuroimage, 54(4):2950-9. doi: \n10.1016/j.neuroimage.2010.10.046"
+    },
+    "demographics": "/Users/greg/code/INCF/BIDS-examples/ds102/participants.tsv",
+    "README": "/Users/greg/code/INCF/BIDS-examples/ds102/README",
+    "CHANGES": "/Users/greg/code/INCF/BIDS-examples/ds102/CHANGES",
+    "participants": {
+        "01": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-01/anat/sub-01_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-01/func/sub-01_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-01/func/sub-01_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-01/func/sub-01_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-01/func/sub-01_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "02": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-02/anat/sub-02_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-02/func/sub-02_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-02/func/sub-02_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-02/func/sub-02_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-02/func/sub-02_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "03": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-03/anat/sub-03_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-03/func/sub-03_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-03/func/sub-03_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-03/func/sub-03_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-03/func/sub-03_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "04": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-04/anat/sub-04_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-04/func/sub-04_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-04/func/sub-04_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-04/func/sub-04_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-04/func/sub-04_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "05": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-05/anat/sub-05_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-05/func/sub-05_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-05/func/sub-05_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-05/func/sub-05_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-05/func/sub-05_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "06": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-06/anat/sub-06_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-06/func/sub-06_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-06/func/sub-06_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-06/func/sub-06_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-06/func/sub-06_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "07": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-07/anat/sub-07_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-07/func/sub-07_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-07/func/sub-07_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-07/func/sub-07_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-07/func/sub-07_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "08": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-08/anat/sub-08_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-08/func/sub-08_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-08/func/sub-08_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-08/func/sub-08_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-08/func/sub-08_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "09": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-09/anat/sub-09_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-09/func/sub-09_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-09/func/sub-09_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-09/func/sub-09_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-09/func/sub-09_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "10": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-10/anat/sub-10_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-10/func/sub-10_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-10/func/sub-10_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-10/func/sub-10_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-10/func/sub-10_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "11": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-11/anat/sub-11_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-11/func/sub-11_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-11/func/sub-11_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-11/func/sub-11_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-11/func/sub-11_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "12": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-12/anat/sub-12_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-12/func/sub-12_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-12/func/sub-12_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-12/func/sub-12_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-12/func/sub-12_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "13": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-13/anat/sub-13_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-13/func/sub-13_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-13/func/sub-13_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-13/func/sub-13_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-13/func/sub-13_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "14": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-14/anat/sub-14_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-14/func/sub-14_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-14/func/sub-14_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-14/func/sub-14_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-14/func/sub-14_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "15": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-15/anat/sub-15_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-15/func/sub-15_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-15/func/sub-15_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-15/func/sub-15_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-15/func/sub-15_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "16": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-16/anat/sub-16_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-16/func/sub-16_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-16/func/sub-16_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-16/func/sub-16_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-16/func/sub-16_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "17": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-17/anat/sub-17_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-17/func/sub-17_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-17/func/sub-17_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-17/func/sub-17_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-17/func/sub-17_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "18": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-18/anat/sub-18_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-18/func/sub-18_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-18/func/sub-18_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-18/func/sub-18_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-18/func/sub-18_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "19": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-19/anat/sub-19_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-19/func/sub-19_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-19/func/sub-19_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-19/func/sub-19_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-19/func/sub-19_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "20": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-20/anat/sub-20_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-20/func/sub-20_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-20/func/sub-20_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-20/func/sub-20_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-20/func/sub-20_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "21": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-21/anat/sub-21_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-21/func/sub-21_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-21/func/sub-21_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-21/func/sub-21_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-21/func/sub-21_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "22": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-22/anat/sub-22_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-22/func/sub-22_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-22/func/sub-22_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-22/func/sub-22_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-22/func/sub-22_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "23": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-23/anat/sub-23_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-23/func/sub-23_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-23/func/sub-23_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-23/func/sub-23_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-23/func/sub-23_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "24": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-24/anat/sub-24_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-24/func/sub-24_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-24/func/sub-24_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-24/func/sub-24_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-24/func/sub-24_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "25": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-25/anat/sub-25_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-25/func/sub-25_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-25/func/sub-25_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-25/func/sub-25_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-25/func/sub-25_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "26": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-26/anat/sub-26_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "flankertask": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-26/func/sub-26_task-flankertask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-26/func/sub-26_task-flankertask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-26/func/sub-26_task-flankertask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "flanker task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds102/sub-26/func/sub-26_task-flankertask_run-02_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

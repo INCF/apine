@@ -14,36 +14,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/anat/sub-01_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/anat/sub-01_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/anat/sub-01_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/anat/sub-01_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-01/func/sub-01_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -54,36 +98,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/anat/sub-02_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/anat/sub-02_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/anat/sub-02_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/anat/sub-02_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-02/func/sub-02_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -94,36 +182,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/anat/sub-03_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/anat/sub-03_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/anat/sub-03_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/anat/sub-03_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-03/func/sub-03_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -134,36 +266,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/anat/sub-04_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/anat/sub-04_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/anat/sub-04_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/anat/sub-04_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-04/func/sub-04_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -174,36 +350,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/anat/sub-05_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/anat/sub-05_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/anat/sub-05_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/anat/sub-05_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-05/func/sub-05_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -214,36 +434,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/anat/sub-06_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/anat/sub-06_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/anat/sub-06_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/anat/sub-06_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-06/func/sub-06_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -254,36 +518,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/anat/sub-07_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/anat/sub-07_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/anat/sub-07_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/anat/sub-07_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-07/func/sub-07_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -294,36 +602,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/anat/sub-08_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/anat/sub-08_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/anat/sub-08_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/anat/sub-08_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-08/func/sub-08_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -334,36 +686,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/anat/sub-09_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/anat/sub-09_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/anat/sub-09_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/anat/sub-09_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-09/func/sub-09_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -374,36 +770,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/anat/sub-10_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/anat/sub-10_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/anat/sub-10_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/anat/sub-10_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-10/func/sub-10_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -414,36 +854,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/anat/sub-11_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/anat/sub-11_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/anat/sub-11_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/anat/sub-11_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-11/func/sub-11_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -454,36 +938,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/anat/sub-12_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/anat/sub-12_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/anat/sub-12_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/anat/sub-12_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-12/func/sub-12_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -494,36 +1022,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/anat/sub-13_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/anat/sub-13_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/anat/sub-13_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/anat/sub-13_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-13/func/sub-13_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -534,36 +1106,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/anat/sub-14_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/anat/sub-14_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/anat/sub-14_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/anat/sub-14_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-14/func/sub-14_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -574,36 +1190,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/anat/sub-15_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/anat/sub-15_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/anat/sub-15_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/anat/sub-15_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-15/func/sub-15_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -614,36 +1274,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/anat/sub-16_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/anat/sub-16_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/anat/sub-16_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/anat/sub-16_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-16/func/sub-16_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -654,36 +1358,80 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/anat/sub-17_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/anat/sub-17_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/anat/sub-17_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/anat/sub-17_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "deterministicclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "deterministic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-deterministicclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-deterministicclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-deterministicclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-deterministicclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-deterministicclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "deterministic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-deterministicclassification_run-02_events.tsv"
+                                }
+                            }
                         },
                         "mixedeventrelatedprobe": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed event-related probe"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-mixedeventrelatedprobe_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-mixedeventrelatedprobe_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-mixedeventrelatedprobe_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-mixedeventrelatedprobe_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed event-related probe"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-mixedeventrelatedprobe_run-02_events.tsv"
+                                }
+                            }
                         },
                         "probabilisticclassification": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "probabilistic classification"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-probabilisticclassification_run-02_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-probabilisticclassification_run-02_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-probabilisticclassification_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-probabilisticclassification_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-probabilisticclassification_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "probabilistic classification"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds002/sub-17/func/sub-17_task-probabilisticclassification_run-02_events.tsv"
+                                }
+                            }
                         }
                     }
                 }

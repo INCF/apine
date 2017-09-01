@@ -1,33 +1,61 @@
 {
     "dataset_description": {
-        "BIDSVersion": "1.0.0rc2",
+        "BIDSVersion": "1.0.0",
         "License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
         "Name": "Mixed-gambles task",
         "ReferencesAndLinks": "Tom, S.M., Fox, C.R., Trepel, C., Poldrack, R.A. (2007). The neural basis of loss aversion in decision-making under risk. Science, 315(5811):515-8"
     },
-    "demographics": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/participants.tsv",
-    "README": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/README",
-    "CHANGES": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/CHANGES",
+    "demographics": "/Users/greg/code/INCF/BIDS-examples/ds005/participants.tsv",
+    "README": "/Users/greg/code/INCF/BIDS-examples/ds005/README",
+    "CHANGES": "/Users/greg/code/INCF/BIDS-examples/ds005/CHANGES",
     "participants": {
         "01": {
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-01/anat/sub-01_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-01/dwi/sub-01_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-01/anat/sub-01_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-01/anat/sub-01_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-01/func/sub-01_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-01/func/sub-01_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-01/func/sub-01_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-01/func/sub-01_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-01/func/sub-01_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-01/func/sub-01_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-01/func/sub-01_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -37,21 +65,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-02/anat/sub-02_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-02/dwi/sub-02_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-02/anat/sub-02_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-02/anat/sub-02_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-02/func/sub-02_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-02/func/sub-02_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-02/func/sub-02_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-02/func/sub-02_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-02/func/sub-02_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-02/func/sub-02_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-02/func/sub-02_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -61,21 +117,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-03/anat/sub-03_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-03/dwi/sub-03_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-03/anat/sub-03_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-03/anat/sub-03_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-03/func/sub-03_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-03/func/sub-03_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-03/func/sub-03_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-03/func/sub-03_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-03/func/sub-03_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-03/func/sub-03_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-03/func/sub-03_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -85,21 +169,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-04/anat/sub-04_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-04/dwi/sub-04_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-04/anat/sub-04_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-04/anat/sub-04_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-04/func/sub-04_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-04/func/sub-04_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-04/func/sub-04_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-04/func/sub-04_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-04/func/sub-04_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-04/func/sub-04_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-04/func/sub-04_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-04/func/sub-04_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -109,21 +221,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-05/anat/sub-05_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-05/dwi/sub-05_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-05/anat/sub-05_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-05/anat/sub-05_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-05/func/sub-05_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-05/func/sub-05_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-05/func/sub-05_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-05/func/sub-05_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-05/func/sub-05_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-05/func/sub-05_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-05/func/sub-05_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-05/func/sub-05_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -133,21 +273,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-06/anat/sub-06_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-06/dwi/sub-06_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-06/anat/sub-06_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-06/anat/sub-06_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-06/func/sub-06_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-06/func/sub-06_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-06/func/sub-06_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-06/func/sub-06_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-06/func/sub-06_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-06/func/sub-06_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-06/func/sub-06_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-06/func/sub-06_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -157,21 +325,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-07/anat/sub-07_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-07/dwi/sub-07_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-07/anat/sub-07_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-07/anat/sub-07_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-07/func/sub-07_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-07/func/sub-07_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-07/func/sub-07_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-07/func/sub-07_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-07/func/sub-07_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-07/func/sub-07_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-07/func/sub-07_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-07/func/sub-07_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -181,21 +377,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-08/anat/sub-08_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-08/dwi/sub-08_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-08/anat/sub-08_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-08/anat/sub-08_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-08/func/sub-08_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-08/func/sub-08_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-08/func/sub-08_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-08/func/sub-08_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-08/func/sub-08_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-08/func/sub-08_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-08/func/sub-08_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-08/func/sub-08_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -205,21 +429,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-09/anat/sub-09_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-09/dwi/sub-09_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-09/anat/sub-09_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-09/anat/sub-09_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-09/func/sub-09_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-09/func/sub-09_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-09/func/sub-09_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-09/func/sub-09_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-09/func/sub-09_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-09/func/sub-09_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-09/func/sub-09_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-09/func/sub-09_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -229,21 +481,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-10/anat/sub-10_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-10/dwi/sub-10_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-10/anat/sub-10_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-10/anat/sub-10_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-10/func/sub-10_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-10/func/sub-10_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-10/func/sub-10_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-10/func/sub-10_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-10/func/sub-10_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-10/func/sub-10_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-10/func/sub-10_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-10/func/sub-10_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -253,21 +533,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-11/anat/sub-11_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-11/dwi/sub-11_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-11/anat/sub-11_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-11/anat/sub-11_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-11/func/sub-11_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-11/func/sub-11_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-11/func/sub-11_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-11/func/sub-11_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-11/func/sub-11_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-11/func/sub-11_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-11/func/sub-11_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-11/func/sub-11_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -277,21 +585,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-12/anat/sub-12_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-12/dwi/sub-12_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-12/anat/sub-12_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-12/anat/sub-12_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-12/func/sub-12_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-12/func/sub-12_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-12/func/sub-12_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-12/func/sub-12_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-12/func/sub-12_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-12/func/sub-12_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-12/func/sub-12_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-12/func/sub-12_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -301,21 +637,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-13/anat/sub-13_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-13/dwi/sub-13_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-13/anat/sub-13_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-13/anat/sub-13_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-13/func/sub-13_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-13/func/sub-13_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-13/func/sub-13_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-13/func/sub-13_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-13/func/sub-13_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-13/func/sub-13_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-13/func/sub-13_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-13/func/sub-13_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -325,21 +689,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-14/anat/sub-14_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-14/dwi/sub-14_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-14/anat/sub-14_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-14/anat/sub-14_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-14/func/sub-14_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-14/func/sub-14_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-14/func/sub-14_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-14/func/sub-14_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-14/func/sub-14_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-14/func/sub-14_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-14/func/sub-14_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-14/func/sub-14_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -349,21 +741,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-15/anat/sub-15_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-15/dwi/sub-15_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-15/anat/sub-15_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-15/anat/sub-15_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-15/func/sub-15_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-15/func/sub-15_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-15/func/sub-15_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-15/func/sub-15_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-15/func/sub-15_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-15/func/sub-15_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-15/func/sub-15_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-15/func/sub-15_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -373,21 +793,49 @@
             "sessions": {
                 "1": {
                     "anat": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-16/anat/sub-16_T1w.nii.gz"
-                    },
-                    "dwi": {
-                        "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-16/dwi/sub-16_dwi.nii.gz",
-                        "bval": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bval",
-                        "bvec": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/dwi.bvec"
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-16/anat/sub-16_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-16/anat/sub-16_T1w.nii.gz"
+                                }
+                            }
+                        }
                     },
                     "func": {
                         "mixedgamblestask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "mixed-gambles task"
-                            },
-                            "filename": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-16/func/sub-16_task-mixedgamblestask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/gkiar/pybids/bids/grabbids/tests/data/ds005/sub-16/func/sub-16_task-mixedgamblestask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-16/func/sub-16_task-mixedgamblestask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-16/func/sub-16_task-mixedgamblestask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-16/func/sub-16_task-mixedgamblestask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-16/func/sub-16_task-mixedgamblestask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-16/func/sub-16_task-mixedgamblestask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "mixed-gambles task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds005/sub-16/func/sub-16_task-mixedgamblestask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }

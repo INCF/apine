@@ -14,20 +14,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/anat/sub-01_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/anat/sub-01_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/anat/sub-01_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/anat/sub-01_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -38,20 +66,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/anat/sub-02_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/anat/sub-02_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/anat/sub-02_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/anat/sub-02_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -62,20 +118,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/anat/sub-03_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/anat/sub-03_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/anat/sub-03_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/anat/sub-03_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -86,20 +170,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/anat/sub-04_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/anat/sub-04_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/anat/sub-04_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/anat/sub-04_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -110,20 +222,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/anat/sub-05_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/anat/sub-05_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/anat/sub-05_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/anat/sub-05_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -134,20 +274,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/anat/sub-06_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/anat/sub-06_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/anat/sub-06_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/anat/sub-06_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -158,20 +326,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/anat/sub-07_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/anat/sub-07_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/anat/sub-07_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/anat/sub-07_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -182,20 +378,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/anat/sub-08_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/anat/sub-08_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/anat/sub-08_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/anat/sub-08_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -206,20 +430,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/anat/sub-09_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/anat/sub-09_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/anat/sub-09_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/anat/sub-09_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -230,20 +482,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/anat/sub-10_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/anat/sub-10_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/anat/sub-10_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/anat/sub-10_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -254,20 +534,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/anat/sub-11_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/anat/sub-11_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/anat/sub-11_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/anat/sub-11_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -278,20 +586,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/anat/sub-12_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/anat/sub-12_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/anat/sub-12_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/anat/sub-12_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -302,20 +638,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/anat/sub-13_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/anat/sub-13_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/anat/sub-13_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/anat/sub-13_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -326,20 +690,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/anat/sub-14_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/anat/sub-14_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/anat/sub-14_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/anat/sub-14_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -350,20 +742,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/anat/sub-15_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/anat/sub-15_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/anat/sub-15_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/anat/sub-15_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }
@@ -374,20 +794,48 @@
                 "1": {
                     "anat": {
                         "inplaneT2": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/anat/sub-16_inplaneT2.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/anat/sub-16_inplaneT2.nii.gz"
+                                }
+                            }
                         },
                         "T1w": {
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/anat/sub-16_T1w.nii.gz"
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/anat/sub-16_T1w.nii.gz"
+                                }
+                            }
                         }
                     },
                     "func": {
                         "balloonanalogrisktask": {
-                            "metadata": {
-                                "RepetitionTime": 2.0,
-                                "TaskName": "balloon analog risk task"
-                            },
-                            "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-03_bold.nii.gz",
-                            "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-03_events.tsv"
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "balloon analog risk task"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-03_events.tsv"
+                                }
+                            }
                         }
                     }
                 }

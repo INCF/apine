@@ -1,0 +1,1957 @@
+{
+    "dataset_description": {
+        "BIDSVersion": "1.0.0",
+        "License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
+        "Name": "Incidental encoding task (Posner Cueing Paradigm)",
+        "ReferencesAndLinks": "Uncapher, M.R., Hutchinson, J.B., Wagner, A.D. (2011). Dissociable effects of top-down and bottom-up attention during episodic encoding. J Neurosci, 31(35):12613-28. doi: 10.1523/JNEUROSCI.0152-11.2011"
+    },
+    "demographics": "/Users/greg/code/INCF/BIDS-examples/ds110/participants.tsv",
+    "README": "/Users/greg/code/INCF/BIDS-examples/ds110/README",
+    "CHANGES": "/Users/greg/code/INCF/BIDS-examples/ds110/CHANGES",
+    "participants": {
+        "01": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/anat/sub-01_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/anat/sub-01_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-01/func/sub-01_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "02": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/anat/sub-02_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/anat/sub-02_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-02/func/sub-02_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "03": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/anat/sub-03_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/anat/sub-03_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-03/func/sub-03_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "04": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/anat/sub-04_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/anat/sub-04_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-04/func/sub-04_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "05": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/anat/sub-05_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/anat/sub-05_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-05/func/sub-05_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "06": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/anat/sub-06_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/anat/sub-06_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-06/func/sub-06_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "07": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/anat/sub-07_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/anat/sub-07_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-07/func/sub-07_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "08": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/anat/sub-08_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/anat/sub-08_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-08/func/sub-08_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "09": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/anat/sub-09_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/anat/sub-09_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-09/func/sub-09_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "10": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/anat/sub-10_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/anat/sub-10_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-10/func/sub-10_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "11": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/anat/sub-11_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/anat/sub-11_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-11/func/sub-11_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "12": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/anat/sub-12_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/anat/sub-12_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-12/func/sub-12_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "13": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/anat/sub-13_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/anat/sub-13_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-13/func/sub-13_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "14": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/anat/sub-14_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/anat/sub-14_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-14/func/sub-14_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "15": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/anat/sub-15_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/anat/sub-15_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-15/func/sub-15_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "16": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/anat/sub-16_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/anat/sub-16_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-16/func/sub-16_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "17": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/anat/sub-17_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/anat/sub-17_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-17/func/sub-17_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "18": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/anat/sub-18_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/anat/sub-18_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-02_events.tsv"
+                                },
+                                "03": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-03_events.tsv"
+                                },
+                                "04": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-04_events.tsv"
+                                },
+                                "05": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-05_events.tsv"
+                                },
+                                "06": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-06_events.tsv"
+                                },
+                                "07": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-07_events.tsv"
+                                },
+                                "08": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-08_events.tsv"
+                                },
+                                "09": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-09_events.tsv"
+                                },
+                                "10": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Incidental encoding task using Posner cueing paradigm with object v greeble judgment"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds110/sub-18/func/sub-18_task-IncidentalencodingtaskusingPosnercueingparadigmwithobjectvgreeblejudgment_run-10_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

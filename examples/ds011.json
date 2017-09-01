@@ -1,0 +1,1245 @@
+{
+    "dataset_description": {
+        "BIDSVersion": "1.0.0",
+        "License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
+        "Name": "Classification learning and tone-counting",
+        "ReferencesAndLinks": "Foerde, K., Knowlton, B.J., Poldrack, R.A. (2006). Modulation of competing memory systems by distraction. Proc Natl Acad Sci U S A,103(31):11778-83"
+    },
+    "demographics": "/Users/greg/code/INCF/BIDS-examples/ds011/participants.tsv",
+    "README": "/Users/greg/code/INCF/BIDS-examples/ds011/README",
+    "CHANGES": "/Users/greg/code/INCF/BIDS-examples/ds011/CHANGES",
+    "participants": {
+        "01": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/anat/sub-01_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/anat/sub-01_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-01/func/sub-01_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "02": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/anat/sub-02_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/anat/sub-02_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-02/func/sub-02_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "03": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/anat/sub-03_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/anat/sub-03_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-03/func/sub-03_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "04": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/anat/sub-04_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/anat/sub-04_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-04/func/sub-04_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "05": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/anat/sub-05_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/anat/sub-05_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-05/func/sub-05_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "06": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/anat/sub-06_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/anat/sub-06_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-06/func/sub-06_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "07": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/anat/sub-07_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/anat/sub-07_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-07/func/sub-07_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "08": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/anat/sub-08_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/anat/sub-08_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-08/func/sub-08_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "09": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/anat/sub-09_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/anat/sub-09_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-09/func/sub-09_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "10": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/anat/sub-10_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/anat/sub-10_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-10/func/sub-10_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "11": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/anat/sub-11_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/anat/sub-11_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-11/func/sub-11_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "12": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/anat/sub-12_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/anat/sub-12_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-12/func/sub-12_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "13": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/anat/sub-13_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/anat/sub-13_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-13/func/sub-13_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "14": {
+            "sessions": {
+                "1": {
+                    "anat": {
+                        "inplaneT2": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/anat/sub-14_inplaneT2.nii.gz"
+                                }
+                            }
+                        },
+                        "T1w": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/anat/sub-14_T1w.nii.gz"
+                                }
+                            }
+                        }
+                    },
+                    "func": {
+                        "Classificationprobewithoutfeedback": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Classificationprobewithoutfeedback_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Classification probe without feedback"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Classificationprobewithoutfeedback_events.tsv"
+                                }
+                            }
+                        },
+                        "Dualtaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Dualtaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Dualtaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Dualtaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Dual-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Dualtaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "Singletaskweatherprediction": {
+                            "runs": {
+                                "01": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Singletaskweatherprediction_run-01_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Singletaskweatherprediction_run-01_events.tsv"
+                                },
+                                "02": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Singletaskweatherprediction_run-02_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "Single-task weather prediction"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-Singletaskweatherprediction_run-02_events.tsv"
+                                }
+                            }
+                        },
+                        "tonecounting": {
+                            "runs": {
+                                "1": {
+                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-tonecounting_bold.nii.gz",
+                                    "metadata": {
+                                        "RepetitionTime": 2.0,
+                                        "TaskName": "tone-counting"
+                                    },
+                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds011/sub-14/func/sub-14_task-tonecounting_events.tsv"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
