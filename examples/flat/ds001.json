@@ -1,0 +1,1197 @@
+{
+    "dataset_description": {
+        "BIDSVersion": "1.0.0",
+        "License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
+        "Name": "Balloon Analog Risk Task",
+        "ReferencesAndLinks": "Schonberg TS, Fox CR, Mumford JA, Congdon E, Trepel C, Poldrack RA (2012). Decreasing ventromedial prefrontal cortex activity during sequential risk-taking: An fMRI investigation of the Balloon Analogue Risk Task. Frontiers in Decision Neuroscience, 6:80 doi: 10.3389/fnins.2012.00080"
+    },
+    "demographics": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/participants.tsv",
+    "README": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/README",
+    "CHANGES": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/CHANGES",
+    "entities": [
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-01/anat/sub-01_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-01/anat/sub-01_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-01/func/sub-01_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-02/anat/sub-02_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-02/anat/sub-02_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-02/func/sub-02_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-03/anat/sub-03_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-03/anat/sub-03_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-03/func/sub-03_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-04/anat/sub-04_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-04/anat/sub-04_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-04/func/sub-04_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-05/anat/sub-05_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-05/anat/sub-05_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-05/func/sub-05_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-06/anat/sub-06_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-06/anat/sub-06_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-06/func/sub-06_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-07/anat/sub-07_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-07/anat/sub-07_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-07/func/sub-07_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-08/anat/sub-08_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-08/anat/sub-08_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-08/func/sub-08_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-09/anat/sub-09_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-09/anat/sub-09_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-09/func/sub-09_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-10/anat/sub-10_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-10/anat/sub-10_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-10/func/sub-10_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-11/anat/sub-11_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-11/anat/sub-11_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-11/func/sub-11_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-12/anat/sub-12_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-12/anat/sub-12_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-12/func/sub-12_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-13/anat/sub-13_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-13/anat/sub-13_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-13/func/sub-13_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-14/anat/sub-14_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-14/anat/sub-14_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-14/func/sub-14_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-15/anat/sub-15_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-15/anat/sub-15_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-15/func/sub-15_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "inplaneT2",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-16/anat/sub-16_inplaneT2.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-16/anat/sub-16_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "balloonanalogrisktask",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "balloon analog risk task"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds001/sub-16/func/sub-16_task-balloonanalogrisktask_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        }
+    ]
+}

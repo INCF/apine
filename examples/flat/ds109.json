@@ -1,0 +1,1582 @@
+{
+    "dataset_description": {
+        "BIDSVersion": "1.0.0",
+        "Name": "Social cognitive tasks (animate movement task, moral judgment task, false belief task)",
+        "ReferencesAndLinks": "Moran, J.M., Jolly, E., Mitchell, J.P. (2012). Social-cognitive deficits in normal aging. J Neurosci, 32(16):5553-61. doi: 10.1523/JNEUROSCI.5511-11.2012"
+    },
+    "CHANGES": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/CHANGES",
+    "entities": [
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-01/anat/sub-01_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-01/func/sub-01_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-01/func/sub-01_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-01/func/sub-01_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-01/func/sub-01_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-02/anat/sub-02_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-02/func/sub-02_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-02/func/sub-02_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-02/func/sub-02_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-02/func/sub-02_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-03/anat/sub-03_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-03/func/sub-03_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-03/func/sub-03_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-03/func/sub-03_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-03/func/sub-03_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-05/anat/sub-05_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-05/func/sub-05_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-05/func/sub-05_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-05/func/sub-05_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-05/func/sub-05_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-07/anat/sub-07_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-07/func/sub-07_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-07/func/sub-07_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-07/func/sub-07_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-07/func/sub-07_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-08/anat/sub-08_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-08/func/sub-08_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-08/func/sub-08_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-08/func/sub-08_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-08/func/sub-08_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-09/anat/sub-09_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-09/func/sub-09_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-09/func/sub-09_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-09/func/sub-09_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-09/func/sub-09_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-10/anat/sub-10_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-10/func/sub-10_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-10/func/sub-10_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-10/func/sub-10_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-10/func/sub-10_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-11/anat/sub-11_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-11/func/sub-11_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-11/func/sub-11_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-11/func/sub-11_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-11/func/sub-11_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-14/anat/sub-14_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-14/func/sub-14_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-14/func/sub-14_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-14/func/sub-14_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-14/func/sub-14_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-15/anat/sub-15_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-15/func/sub-15_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-15/func/sub-15_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-15/func/sub-15_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-15/func/sub-15_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-17/anat/sub-17_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-17/func/sub-17_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-17/func/sub-17_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-17/func/sub-17_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-17/func/sub-17_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-18/anat/sub-18_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-18/func/sub-18_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-18/func/sub-18_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-18/func/sub-18_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-18/func/sub-18_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-19/anat/sub-19_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-19/func/sub-19_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-19/func/sub-19_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-19/func/sub-19_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-19/func/sub-19_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "21",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-21/anat/sub-21_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "21",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-21/func/sub-21_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-21/func/sub-21_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "21",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-21/func/sub-21_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-21/func/sub-21_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "22",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-22/anat/sub-22_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "22",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-22/func/sub-22_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-22/func/sub-22_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "22",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-22/func/sub-22_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-22/func/sub-22_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "23",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-23/anat/sub-23_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "23",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-23/func/sub-23_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-23/func/sub-23_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "25",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-25/anat/sub-25_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "25",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-25/func/sub-25_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-25/func/sub-25_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "25",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-25/func/sub-25_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-25/func/sub-25_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "26",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-26/anat/sub-26_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "26",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-26/func/sub-26_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-26/func/sub-26_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "26",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-26/func/sub-26_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-26/func/sub-26_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "27",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-27/anat/sub-27_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "27",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-27/func/sub-27_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-27/func/sub-27_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "27",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-27/func/sub-27_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-27/func/sub-27_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "28",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-28/anat/sub-28_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "28",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-28/func/sub-28_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-28/func/sub-28_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "28",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-28/func/sub-28_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-28/func/sub-28_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "29",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-29/anat/sub-29_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "29",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-29/func/sub-29_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-29/func/sub-29_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "29",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-29/func/sub-29_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-29/func/sub-29_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "30",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-30/anat/sub-30_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "30",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-30/func/sub-30_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-30/func/sub-30_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "30",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-30/func/sub-30_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-30/func/sub-30_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "31",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-31/anat/sub-31_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "31",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-31/func/sub-31_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-31/func/sub-31_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "31",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-31/func/sub-31_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-31/func/sub-31_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "32",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-32/anat/sub-32_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "32",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-32/func/sub-32_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-32/func/sub-32_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "32",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-32/func/sub-32_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-32/func/sub-32_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "34",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-34/anat/sub-34_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "34",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-34/func/sub-34_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-34/func/sub-34_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "34",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-34/func/sub-34_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-34/func/sub-34_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "36",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-36/anat/sub-36_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "36",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-36/func/sub-36_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-36/func/sub-36_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "36",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-36/func/sub-36_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-36/func/sub-36_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "38",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-38/anat/sub-38_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "38",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-38/func/sub-38_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-38/func/sub-38_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "38",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-38/func/sub-38_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-38/func/sub-38_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "39",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-39/anat/sub-39_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "39",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-39/func/sub-39_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-39/func/sub-39_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "39",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-39/func/sub-39_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-39/func/sub-39_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "40",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-40/anat/sub-40_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "40",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-40/func/sub-40_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-40/func/sub-40_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "40",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-40/func/sub-40_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-40/func/sub-40_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "42",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-42/anat/sub-42_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "42",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-42/func/sub-42_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-42/func/sub-42_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "42",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-42/func/sub-42_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-42/func/sub-42_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "43",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-43/anat/sub-43_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "43",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-43/func/sub-43_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-43/func/sub-43_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "43",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-43/func/sub-43_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-43/func/sub-43_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "46",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-46/anat/sub-46_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "46",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-46/func/sub-46_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-46/func/sub-46_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "47",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-47/anat/sub-47_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "47",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-47/func/sub-47_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-47/func/sub-47_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "47",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-47/func/sub-47_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-47/func/sub-47_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "48",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-48/anat/sub-48_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "48",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-48/func/sub-48_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-48/func/sub-48_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "48",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-48/func/sub-48_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-48/func/sub-48_task-theoryofmindwithmanualresponse_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "49",
+            "session": "01",
+            "modality": "anat",
+            "run": "01",
+            "task": null,
+            "type": "T1w",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-49/anat/sub-49_T1w.nii.gz",
+            "metadata": {},
+            "events": null,
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "49",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "theoryofmindwithmanualresponse",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-49/func/sub-49_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "theory of mind with manual response"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds109/sub-49/func/sub-49_task-theoryofmindwithmanualresponse_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        }
+    ]
+}

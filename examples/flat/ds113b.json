@@ -1,0 +1,2506 @@
+{
+    "dataset_description": {
+        "BIDSVersion": "1.0.0rc3",
+        "Name": "Forrest Gump movie annotation",
+        "ReferencesAndLinks": "Hanke, M., Baumgartner, F.J., Ibe, P., Kaule, F.R., Pollmann, S., Speck, O.,\nZinke, W. & Stadler, J. (2014). A high-resolution 7-Tesla fMRI dataset from\ncomplex natural stimulation with an audio movie. Scientific Data, 1.\ndoi:10.1038/sdata.2014.3\n\nLabs, A., Reich, T., Schulenburg, H., Boennen, M., Gehrke, M., Golz, M.,\nHartings, B., Hoffmann, N., Keil, S., Perlow, M., Peukmann, A. K., Rabe, L. N.,\nvon Sobbe, F.-R. & Hanke, M. (2015). Portrayed emotions in the movie \u201cForrest\nGump\u201d. F1000Research, 4:92.\nurl:http://f1000research.com/articles/4-92\ndoi:10.12688/f1000research.6230.1"
+    },
+    "CHANGES": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/CHANGES",
+    "entities": [
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "01",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-01/func/sub-01_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "02",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-02/func/sub-02_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "03",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-03/func/sub-03_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "04",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-04/func/sub-04_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "05",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-05/func/sub-05_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "06",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-06/func/sub-06_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "07",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-07/func/sub-07_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "08",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-08/func/sub-08_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "09",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-09/func/sub-09_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "10",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-10/func/sub-10_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "11",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-11/func/sub-11_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "12",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-12/func/sub-12_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "13",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-13/func/sub-13_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "14",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-14/func/sub-14_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "15",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-15/func/sub-15_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "16",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-16/func/sub-16_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "17",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-17/func/sub-17_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "18",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-18/func/sub-18_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "05",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-05_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-05_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "06",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-06_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-06_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "07",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-07_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-07_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "19",
+            "session": "01",
+            "modality": "func",
+            "run": "08",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-08_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-19/func/sub-19_task-auditoryperception_run-08_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "20",
+            "session": "01",
+            "modality": "func",
+            "run": "01",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-20/func/sub-20_task-auditoryperception_run-01_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-20/func/sub-20_task-auditoryperception_run-01_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "20",
+            "session": "01",
+            "modality": "func",
+            "run": "02",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-20/func/sub-20_task-auditoryperception_run-02_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-20/func/sub-20_task-auditoryperception_run-02_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "20",
+            "session": "01",
+            "modality": "func",
+            "run": "03",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-20/func/sub-20_task-auditoryperception_run-03_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-20/func/sub-20_task-auditoryperception_run-03_events.tsv",
+            "bval": null,
+            "bvec": null
+        },
+        {
+            "participant": "20",
+            "session": "01",
+            "modality": "func",
+            "run": "04",
+            "task": "auditoryperception",
+            "type": "bold",
+            "filename": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-20/func/sub-20_task-auditoryperception_run-04_bold.nii.gz",
+            "metadata": {
+                "RepetitionTime": 2.0,
+                "TaskName": "auditory perception"
+            },
+            "events": "/Users/gkiar/code/INCF/BIDS-Examples/ds113b/sub-20/func/sub-20_task-auditoryperception_run-04_events.tsv",
+            "bval": null,
+            "bvec": null
+        }
+    ]
+}
