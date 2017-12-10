@@ -1,0 +1,1085 @@
+[
+    {
+        "dataset": "ds109",
+        "participant": "01",
+        "modality": "anat",
+        "filename": "sub-01_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "02",
+        "modality": "anat",
+        "filename": "sub-02_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "03",
+        "modality": "anat",
+        "filename": "sub-03_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "05",
+        "modality": "anat",
+        "filename": "sub-05_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "07",
+        "modality": "anat",
+        "filename": "sub-07_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "08",
+        "modality": "anat",
+        "filename": "sub-08_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "09",
+        "modality": "anat",
+        "filename": "sub-09_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "10",
+        "modality": "anat",
+        "filename": "sub-10_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "11",
+        "modality": "anat",
+        "filename": "sub-11_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "11",
+        "modality": "func",
+        "filename": "sub-11_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "11",
+        "modality": "func",
+        "filename": "sub-11_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "14",
+        "modality": "anat",
+        "filename": "sub-14_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "15",
+        "modality": "anat",
+        "filename": "sub-15_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "15",
+        "modality": "func",
+        "filename": "sub-15_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "15",
+        "modality": "func",
+        "filename": "sub-15_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "17",
+        "modality": "anat",
+        "filename": "sub-17_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "17",
+        "modality": "func",
+        "filename": "sub-17_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "17",
+        "modality": "func",
+        "filename": "sub-17_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "18",
+        "modality": "anat",
+        "filename": "sub-18_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "18",
+        "modality": "func",
+        "filename": "sub-18_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "18",
+        "modality": "func",
+        "filename": "sub-18_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "19",
+        "modality": "anat",
+        "filename": "sub-19_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "19",
+        "modality": "func",
+        "filename": "sub-19_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "19",
+        "modality": "func",
+        "filename": "sub-19_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "21",
+        "modality": "anat",
+        "filename": "sub-21_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "21",
+        "modality": "func",
+        "filename": "sub-21_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "21",
+        "modality": "func",
+        "filename": "sub-21_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "22",
+        "modality": "anat",
+        "filename": "sub-22_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "22",
+        "modality": "func",
+        "filename": "sub-22_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "22",
+        "modality": "func",
+        "filename": "sub-22_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "23",
+        "modality": "anat",
+        "filename": "sub-23_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "23",
+        "modality": "func",
+        "filename": "sub-23_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "25",
+        "modality": "anat",
+        "filename": "sub-25_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "25",
+        "modality": "func",
+        "filename": "sub-25_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "25",
+        "modality": "func",
+        "filename": "sub-25_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "26",
+        "modality": "anat",
+        "filename": "sub-26_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "26",
+        "modality": "func",
+        "filename": "sub-26_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "26",
+        "modality": "func",
+        "filename": "sub-26_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "27",
+        "modality": "anat",
+        "filename": "sub-27_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "27",
+        "modality": "func",
+        "filename": "sub-27_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "27",
+        "modality": "func",
+        "filename": "sub-27_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "28",
+        "modality": "anat",
+        "filename": "sub-28_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "28",
+        "modality": "func",
+        "filename": "sub-28_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "28",
+        "modality": "func",
+        "filename": "sub-28_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "29",
+        "modality": "anat",
+        "filename": "sub-29_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "29",
+        "modality": "func",
+        "filename": "sub-29_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "29",
+        "modality": "func",
+        "filename": "sub-29_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "30",
+        "modality": "anat",
+        "filename": "sub-30_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "30",
+        "modality": "func",
+        "filename": "sub-30_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "30",
+        "modality": "func",
+        "filename": "sub-30_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "31",
+        "modality": "anat",
+        "filename": "sub-31_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "31",
+        "modality": "func",
+        "filename": "sub-31_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "31",
+        "modality": "func",
+        "filename": "sub-31_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "32",
+        "modality": "anat",
+        "filename": "sub-32_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "32",
+        "modality": "func",
+        "filename": "sub-32_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "32",
+        "modality": "func",
+        "filename": "sub-32_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "34",
+        "modality": "anat",
+        "filename": "sub-34_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "34",
+        "modality": "func",
+        "filename": "sub-34_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "34",
+        "modality": "func",
+        "filename": "sub-34_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "36",
+        "modality": "anat",
+        "filename": "sub-36_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "36",
+        "modality": "func",
+        "filename": "sub-36_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "36",
+        "modality": "func",
+        "filename": "sub-36_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "38",
+        "modality": "anat",
+        "filename": "sub-38_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "38",
+        "modality": "func",
+        "filename": "sub-38_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "38",
+        "modality": "func",
+        "filename": "sub-38_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "39",
+        "modality": "anat",
+        "filename": "sub-39_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "39",
+        "modality": "func",
+        "filename": "sub-39_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "39",
+        "modality": "func",
+        "filename": "sub-39_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "40",
+        "modality": "anat",
+        "filename": "sub-40_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "40",
+        "modality": "func",
+        "filename": "sub-40_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "40",
+        "modality": "func",
+        "filename": "sub-40_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "42",
+        "modality": "anat",
+        "filename": "sub-42_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "42",
+        "modality": "func",
+        "filename": "sub-42_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "42",
+        "modality": "func",
+        "filename": "sub-42_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "43",
+        "modality": "anat",
+        "filename": "sub-43_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "43",
+        "modality": "func",
+        "filename": "sub-43_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "43",
+        "modality": "func",
+        "filename": "sub-43_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "46",
+        "modality": "anat",
+        "filename": "sub-46_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "46",
+        "modality": "func",
+        "filename": "sub-46_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "47",
+        "modality": "anat",
+        "filename": "sub-47_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "47",
+        "modality": "func",
+        "filename": "sub-47_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "47",
+        "modality": "func",
+        "filename": "sub-47_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "48",
+        "modality": "anat",
+        "filename": "sub-48_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "48",
+        "modality": "func",
+        "filename": "sub-48_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "48",
+        "modality": "func",
+        "filename": "sub-48_task-theoryofmindwithmanualresponse_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "49",
+        "modality": "anat",
+        "filename": "sub-49_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds109",
+        "participant": "49",
+        "modality": "func",
+        "filename": "sub-49_task-theoryofmindwithmanualresponse_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-theoryofmindwithmanualresponse",
+            "run-01",
+            "bold"
+        ]
+    }
+]

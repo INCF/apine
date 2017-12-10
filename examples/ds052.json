@@ -1,0 +1,941 @@
+[
+    {
+        "dataset": "ds052",
+        "participant": "01",
+        "modality": "anat",
+        "filename": "sub-01_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "01",
+        "modality": "anat",
+        "filename": "sub-01_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "01",
+        "modality": "anat",
+        "filename": "sub-01_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "02",
+        "modality": "anat",
+        "filename": "sub-02_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "02",
+        "modality": "anat",
+        "filename": "sub-02_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "03",
+        "modality": "anat",
+        "filename": "sub-03_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "03",
+        "modality": "anat",
+        "filename": "sub-03_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "03",
+        "modality": "anat",
+        "filename": "sub-03_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "04",
+        "modality": "anat",
+        "filename": "sub-04_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "04",
+        "modality": "anat",
+        "filename": "sub-04_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "04",
+        "modality": "anat",
+        "filename": "sub-04_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "05",
+        "modality": "anat",
+        "filename": "sub-05_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "05",
+        "modality": "anat",
+        "filename": "sub-05_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "05",
+        "modality": "anat",
+        "filename": "sub-05_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "06",
+        "modality": "anat",
+        "filename": "sub-06_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "06",
+        "modality": "anat",
+        "filename": "sub-06_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "06",
+        "modality": "anat",
+        "filename": "sub-06_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "07",
+        "modality": "anat",
+        "filename": "sub-07_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "07",
+        "modality": "anat",
+        "filename": "sub-07_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "07",
+        "modality": "anat",
+        "filename": "sub-07_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "08",
+        "modality": "anat",
+        "filename": "sub-08_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "08",
+        "modality": "anat",
+        "filename": "sub-08_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "08",
+        "modality": "anat",
+        "filename": "sub-08_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "09",
+        "modality": "anat",
+        "filename": "sub-09_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "09",
+        "modality": "anat",
+        "filename": "sub-09_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "09",
+        "modality": "anat",
+        "filename": "sub-09_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "10",
+        "modality": "anat",
+        "filename": "sub-10_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "10",
+        "modality": "anat",
+        "filename": "sub-10_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "10",
+        "modality": "anat",
+        "filename": "sub-10_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "12",
+        "modality": "anat",
+        "filename": "sub-12_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "12",
+        "modality": "anat",
+        "filename": "sub-12_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "12",
+        "modality": "anat",
+        "filename": "sub-12_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "13",
+        "modality": "anat",
+        "filename": "sub-13_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "13",
+        "modality": "anat",
+        "filename": "sub-13_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "13",
+        "modality": "anat",
+        "filename": "sub-13_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "14",
+        "modality": "anat",
+        "filename": "sub-14_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "14",
+        "modality": "anat",
+        "filename": "sub-14_run-01_T1w.nii.gz",
+        "filename_keys": [
+            "run-01",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "14",
+        "modality": "anat",
+        "filename": "sub-14_run-02_T1w.nii.gz",
+        "filename_keys": [
+            "run-02",
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-reversalweatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-reversalweatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-reversalweatherprediction",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-weatherprediction_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds052",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-weatherprediction_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-weatherprediction",
+            "run-02",
+            "bold"
+        ]
+    }
+]

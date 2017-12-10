@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#", 
+  "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json", 
+  "type": "object", 
+  "additionalProperties": false, 
+  "properties": {
+    "dataset": {
+      "$id": "/properties/dataset", 
+      "minLength": 1,
+      "type": "string", 
+      "title": "dataset", 
+			"required": true,
+      "description": "The parent" 
+    },
+    "participant": {
+      "$id": "/properties/participant", 
+      "type": "string", 
+			"required": false,
+      "title": "participant", 
+      "description": "The corresponding participant"
+    }, 
+    "session": {
+      "$id": "/properties/session", 
+      "type": "string", 
+			"required": false,
+      "title": "session",
+      "description": "The corresponding session"
+    },
+    "modality": {
+      "$id": "/properties/modality", 
+      "type": "string", 
+			"required": false,
+      "title": "modality", 
+      "description": "The corresponding modality", 
+      "examples": [
+        "func",
+				"anat",
+				"dwi",
+				"fmap"
+      ]
+    }, 
+    "filename": {
+      "$id": "/properties/filename", 
+      "type": "string", 
+			"required": true,
+      "title": "filename", 
+      "description": "The filename being described"
+    }, 
+    "filename_keys": {
+      "$id": "/properties/filename_keys", 
+      "type": "array", 
+			"required": false,
+      "items": {
+        "$id": "/properties/filename_keys/items", 
+        "type": "string", 
+        "title": "filename keys", 
+        "description": "Keys in the filename not captured by other fields", 
+        "examples": [
+          "task-rest",
+					"acq-singleband",
+					"bold",
+					"T1w",
+					"inplaneT2",
+					"dwi"
+        ]
+      }
+    }
+  }
+}

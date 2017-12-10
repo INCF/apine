@@ -1,0 +1,1502 @@
+[
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-01_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-01_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-01_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-01_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-01_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-01_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-01_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-01_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-01_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-01_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-01_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-01_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-01_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "01",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-01_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-02_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-02_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-02_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-02_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-02_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-02_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-02_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-02_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-02_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-02_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-02_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-02_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-02_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "02",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-02_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-03_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-03_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-03_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-03_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-03_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-03_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-03_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-03_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-03_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-03_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-03_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-03_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-03_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "03",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-03_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-04_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-04_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-04_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-04_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-04_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-04_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-04_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-04_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-04_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-04_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-04_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-04_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-04_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "04",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-04_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-05_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-05_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-05_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-05_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-05_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-05_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-05_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-05_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-05_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-05_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-05_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-05_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-05_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "05",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-05_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-06_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-06_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-06_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-06_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-06_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-06_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-06_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-06_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-06_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-06_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-06_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-06_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-06_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "06",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-06_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-07_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-07_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-07_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-07_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-07_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-07_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-07_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-07_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-07_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-07_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-07_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-07_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-07_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "07",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-07_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-08_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-08_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-08_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-08_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-08_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-08_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-08_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-08_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-08_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-08_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-08_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-08_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-08_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "08",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-08_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-09_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-09_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-09_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-09_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-09_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-09_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-09_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-09_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-09_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-09_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-09_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-09_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-09_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "09",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-09_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "retest",
+        "modality": "anat",
+        "filename": "sub-10_ses-retest_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "retest",
+        "modality": "dwi",
+        "filename": "sub-10_ses-retest_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-10_ses-retest_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-10_ses-retest_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-10_ses-retest_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-10_ses-retest_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "retest",
+        "modality": "func",
+        "filename": "sub-10_ses-retest_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "test",
+        "modality": "anat",
+        "filename": "sub-10_ses-test_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "test",
+        "modality": "dwi",
+        "filename": "sub-10_ses-test_dwi.nii.gz",
+        "filename_keys": [
+            "dwi"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-10_ses-test_task-covertverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-covertverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-10_ses-test_task-fingerfootlips_bold.nii.gz",
+        "filename_keys": [
+            "task-fingerfootlips",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-10_ses-test_task-linebisection_bold.nii.gz",
+        "filename_keys": [
+            "task-linebisection",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-10_ses-test_task-overtverbgeneration_bold.nii.gz",
+        "filename_keys": [
+            "task-overtverbgeneration",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds114",
+        "participant": "10",
+        "session": "test",
+        "modality": "func",
+        "filename": "sub-10_ses-test_task-overtwordrepetition_bold.nii.gz",
+        "filename_keys": [
+            "task-overtwordrepetition",
+            "bold"
+        ]
+    }
+]
