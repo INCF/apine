@@ -8,7 +8,7 @@
 # Created 10/12/2017 initially by G. Kiar
 #
 # To install dependencies, in a fresh virtual environment run:
-#    pip install pybids duecredit jsonschema
+#    pip install pybids duecredit
 #
 
 from argparse import ArgumentParser

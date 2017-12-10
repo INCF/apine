@@ -9,27 +9,23 @@
       "minLength": 1,
       "type": "string", 
       "title": "dataset", 
-			"required": true,
       "description": "The parent" 
     },
     "participant": {
       "$id": "/properties/participant", 
       "type": "string", 
-			"required": false,
       "title": "participant", 
       "description": "The corresponding participant"
     }, 
     "session": {
       "$id": "/properties/session", 
       "type": "string", 
-			"required": false,
       "title": "session",
       "description": "The corresponding session"
     },
     "modality": {
       "$id": "/properties/modality", 
       "type": "string", 
-			"required": false,
       "title": "modality", 
       "description": "The corresponding modality", 
       "examples": [
@@ -42,14 +38,12 @@
     "filename": {
       "$id": "/properties/filename", 
       "type": "string", 
-			"required": true,
       "title": "filename", 
       "description": "The filename being described"
     }, 
     "filename_keys": {
       "$id": "/properties/filename_keys", 
       "type": "array", 
-			"required": false,
       "items": {
         "$id": "/properties/filename_keys/items", 
         "type": "string", 
@@ -65,5 +59,6 @@
         ]
       }
     }
-  }
+  },
+  "required": ["dataset", "filename"]
 }
