@@ -1,1138 +1,1165 @@
-{
-    "dataset_description": {
-        "BIDSVersion": "1.0.0",
-        "License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
-        "Name": "Stop-signal task with unselective and selective stopping",
-        "ReferencesAndLinks": "Aron, A.R., Behrens, T.E., Smith, S., Frank, M.J., Poldrack, R.A. (2007). Triangulating a cognitive control network using diffusion-weighted magnetic resonance imaging (MRI) and functional MRI. J Neurosci, 27(14):3743-52"
+[
+    {
+        "dataset": "ds008",
+        "participant": "01",
+        "modality": "anat",
+        "filename": "sub-01_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
     },
-    "demographics": "/Users/greg/code/INCF/BIDS-examples/ds008/participants.tsv",
-    "README": "/Users/greg/code/INCF/BIDS-examples/ds008/README",
-    "CHANGES": "/Users/greg/code/INCF/BIDS-examples/ds008/CHANGES",
-    "participants": {
-        "01": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/anat/sub-01_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/anat/sub-01_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-01/func/sub-01_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "02": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/anat/sub-02_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/anat/sub-02_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-conditionalstopsignal_run-02_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-02/func/sub-02_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "03": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/anat/sub-03_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/anat/sub-03_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-03/func/sub-03_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "04": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/anat/sub-04_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/anat/sub-04_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-04/func/sub-04_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "05": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/anat/sub-05_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/anat/sub-05_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-05/func/sub-05_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "06": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/anat/sub-06_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/anat/sub-06_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-06/func/sub-06_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "07": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/anat/sub-07_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/anat/sub-07_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-07/func/sub-07_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "08": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/anat/sub-08_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/func/sub-08_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/func/sub-08_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/func/sub-08_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/func/sub-08_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/func/sub-08_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/func/sub-08_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/func/sub-08_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-08/func/sub-08_task-stopsignal_run-01_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "09": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-09/anat/sub-09_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-09/anat/sub-09_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-09/func/sub-09_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-09/func/sub-09_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-09/func/sub-09_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-09/func/sub-09_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-09/func/sub-09_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-09/func/sub-09_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "10": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/anat/sub-10_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/anat/sub-10_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-10/func/sub-10_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "11": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/anat/sub-11_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/anat/sub-11_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-11/func/sub-11_task-stopsignal_run-02_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "12": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/anat/sub-12_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/anat/sub-12_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-12/func/sub-12_task-stopsignal_run-02_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "13": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/anat/sub-13_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/anat/sub-13_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-13/func/sub-13_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "14": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/anat/sub-14_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/anat/sub-14_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-14/func/sub-14_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "15": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "inplaneT2": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/anat/sub-15_inplaneT2.nii.gz"
-                                }
-                            }
-                        },
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/anat/sub-15_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "conditionalstopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-conditionalstopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-conditionalstopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-conditionalstopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-conditionalstopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-conditionalstopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "conditional stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-conditionalstopsignal_run-03_events.tsv"
-                                }
-                            }
-                        },
-                        "stopsignal": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-stopsignal_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-stopsignal_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-stopsignal_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-stopsignal_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-stopsignal_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.0,
-                                        "TaskName": "stop signal"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds008/sub-15/func/sub-15_task-stopsignal_run-03_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+    {
+        "dataset": "ds008",
+        "participant": "01",
+        "modality": "anat",
+        "filename": "sub-01_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "01",
+        "modality": "func",
+        "filename": "sub-01_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "02",
+        "modality": "anat",
+        "filename": "sub-02_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "02",
+        "modality": "anat",
+        "filename": "sub-02_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "02",
+        "modality": "func",
+        "filename": "sub-02_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "03",
+        "modality": "anat",
+        "filename": "sub-03_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "03",
+        "modality": "anat",
+        "filename": "sub-03_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "03",
+        "modality": "func",
+        "filename": "sub-03_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "04",
+        "modality": "anat",
+        "filename": "sub-04_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "04",
+        "modality": "anat",
+        "filename": "sub-04_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "04",
+        "modality": "func",
+        "filename": "sub-04_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "05",
+        "modality": "anat",
+        "filename": "sub-05_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "05",
+        "modality": "anat",
+        "filename": "sub-05_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "05",
+        "modality": "func",
+        "filename": "sub-05_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "06",
+        "modality": "anat",
+        "filename": "sub-06_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "06",
+        "modality": "anat",
+        "filename": "sub-06_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "06",
+        "modality": "func",
+        "filename": "sub-06_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "07",
+        "modality": "anat",
+        "filename": "sub-07_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "07",
+        "modality": "anat",
+        "filename": "sub-07_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "07",
+        "modality": "func",
+        "filename": "sub-07_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "08",
+        "modality": "anat",
+        "filename": "sub-08_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "08",
+        "modality": "func",
+        "filename": "sub-08_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "09",
+        "modality": "anat",
+        "filename": "sub-09_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "09",
+        "modality": "anat",
+        "filename": "sub-09_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "09",
+        "modality": "func",
+        "filename": "sub-09_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "10",
+        "modality": "anat",
+        "filename": "sub-10_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "10",
+        "modality": "anat",
+        "filename": "sub-10_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "10",
+        "modality": "func",
+        "filename": "sub-10_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "11",
+        "modality": "anat",
+        "filename": "sub-11_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "11",
+        "modality": "anat",
+        "filename": "sub-11_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "11",
+        "modality": "func",
+        "filename": "sub-11_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "11",
+        "modality": "func",
+        "filename": "sub-11_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "11",
+        "modality": "func",
+        "filename": "sub-11_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "11",
+        "modality": "func",
+        "filename": "sub-11_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "11",
+        "modality": "func",
+        "filename": "sub-11_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "12",
+        "modality": "anat",
+        "filename": "sub-12_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "12",
+        "modality": "anat",
+        "filename": "sub-12_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "12",
+        "modality": "func",
+        "filename": "sub-12_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "13",
+        "modality": "anat",
+        "filename": "sub-13_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "13",
+        "modality": "anat",
+        "filename": "sub-13_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "13",
+        "modality": "func",
+        "filename": "sub-13_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "14",
+        "modality": "anat",
+        "filename": "sub-14_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "14",
+        "modality": "anat",
+        "filename": "sub-14_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "14",
+        "modality": "func",
+        "filename": "sub-14_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "15",
+        "modality": "anat",
+        "filename": "sub-15_inplaneT2.nii.gz",
+        "filename_keys": [
+            "inplaneT2"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "15",
+        "modality": "anat",
+        "filename": "sub-15_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "15",
+        "modality": "func",
+        "filename": "sub-15_task-conditionalstopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "15",
+        "modality": "func",
+        "filename": "sub-15_task-conditionalstopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "15",
+        "modality": "func",
+        "filename": "sub-15_task-conditionalstopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-conditionalstopsignal",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "15",
+        "modality": "func",
+        "filename": "sub-15_task-stopsignal_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "15",
+        "modality": "func",
+        "filename": "sub-15_task-stopsignal_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds008",
+        "participant": "15",
+        "modality": "func",
+        "filename": "sub-15_task-stopsignal_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-stopsignal",
+            "run-03",
+            "bold"
+        ]
     }
-}
+]

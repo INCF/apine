@@ -1,706 +1,837 @@
-{
-    "dataset_description": {
-        "BIDSVersion": "1.0.0",
-        "License": "This dataset is made available under the Public Domain Dedication and License \nv1.0, whose full text can be found at \nhttp://www.opendatacommons.org/licenses/pddl/1.0/. \nWe hope that all users will follow the ODC Attribution/Share-Alike \nCommunity Norms (http://www.opendatacommons.org/norms/odc-by-sa/); \nin particular, while not legally required, we hope that all users \nof the data will acknowledge the OpenfMRI project and NSF Grant \nOCI-1131441 (R. Poldrack, PI) in any publications.",
-        "Name": "Visual object recognition",
-        "ReferencesAndLinks": "Haxby, J.V., Gobbini, M.I., Furey, M.L., Ishai, A., Schouten, J.L., Pietrini, P. (2001). Distributed and overlapping representations of faces and objects in ventral temporal cortex. Science, 293(5539):2425-30\n\nHanson, S.J., Matsuka, T., Haxby, J.V. (2004). Combinatorial codes in ventral temporal lobe for object recognition: Haxby (2001) revisited: is there a \"face\" area? Neuroimage. 23(1):156-66\n\nO'Toole, A.J., Jiang, F., Abdi, H., Haxby, J.V. (2005). Partially distributed representations of objects and faces in ventral temporal cortex. J Cogn Neurosci, 17(4):580-90"
+[
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "anat",
+        "filename": "sub-1_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
     },
-    "README": "/Users/greg/code/INCF/BIDS-examples/ds105/README",
-    "CHANGES": "/Users/greg/code/INCF/BIDS-examples/ds105/CHANGES",
-    "participants": {
-        "1": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/anat/sub-1_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "objectviewing": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-03_events.tsv"
-                                },
-                                "04": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-04_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-04_events.tsv"
-                                },
-                                "05": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-05_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-05_events.tsv"
-                                },
-                                "06": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-06_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-06_events.tsv"
-                                },
-                                "07": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-07_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-07_events.tsv"
-                                },
-                                "08": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-08_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-08_events.tsv"
-                                },
-                                "09": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-09_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-09_events.tsv"
-                                },
-                                "10": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-10_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-10_events.tsv"
-                                },
-                                "11": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-11_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-11_events.tsv"
-                                },
-                                "12": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-12_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-1/func/sub-1_task-objectviewing_run-12_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "2": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/anat/sub-2_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "objectviewing": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-03_events.tsv"
-                                },
-                                "04": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-04_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-04_events.tsv"
-                                },
-                                "05": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-05_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-05_events.tsv"
-                                },
-                                "06": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-06_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-06_events.tsv"
-                                },
-                                "07": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-07_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-07_events.tsv"
-                                },
-                                "08": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-08_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-08_events.tsv"
-                                },
-                                "09": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-09_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-09_events.tsv"
-                                },
-                                "10": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-10_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-10_events.tsv"
-                                },
-                                "11": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-11_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-11_events.tsv"
-                                },
-                                "12": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-12_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-2/func/sub-2_task-objectviewing_run-12_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "3": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/anat/sub-3_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "objectviewing": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-03_events.tsv"
-                                },
-                                "04": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-04_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-04_events.tsv"
-                                },
-                                "05": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-05_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-05_events.tsv"
-                                },
-                                "06": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-06_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-06_events.tsv"
-                                },
-                                "07": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-07_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-07_events.tsv"
-                                },
-                                "08": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-08_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-08_events.tsv"
-                                },
-                                "09": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-09_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-09_events.tsv"
-                                },
-                                "10": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-10_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-10_events.tsv"
-                                },
-                                "11": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-11_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-11_events.tsv"
-                                },
-                                "12": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-12_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-3/func/sub-3_task-objectviewing_run-12_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "4": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/anat/sub-4_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "objectviewing": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-03_events.tsv"
-                                },
-                                "04": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-04_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-04_events.tsv"
-                                },
-                                "05": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-05_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-05_events.tsv"
-                                },
-                                "06": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-06_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-06_events.tsv"
-                                },
-                                "07": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-07_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-07_events.tsv"
-                                },
-                                "08": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-08_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-08_events.tsv"
-                                },
-                                "09": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-09_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-09_events.tsv"
-                                },
-                                "10": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-10_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-10_events.tsv"
-                                },
-                                "11": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-11_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-11_events.tsv"
-                                },
-                                "12": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-12_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-4/func/sub-4_task-objectviewing_run-12_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "5": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/anat/sub-5_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "objectviewing": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-03_events.tsv"
-                                },
-                                "04": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-04_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-04_events.tsv"
-                                },
-                                "05": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-05_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-05_events.tsv"
-                                },
-                                "06": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-06_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-06_events.tsv"
-                                },
-                                "07": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-07_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-07_events.tsv"
-                                },
-                                "08": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-08_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-08_events.tsv"
-                                },
-                                "09": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-09_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-09_events.tsv"
-                                },
-                                "10": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-10_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-10_events.tsv"
-                                },
-                                "11": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-11_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-5/func/sub-5_task-objectviewing_run-11_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "6": {
-            "sessions": {
-                "1": {
-                    "anat": {
-                        "T1w": {
-                            "runs": {
-                                "1": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/anat/sub-6_T1w.nii.gz"
-                                }
-                            }
-                        }
-                    },
-                    "func": {
-                        "objectviewing": {
-                            "runs": {
-                                "01": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-01_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-01_events.tsv"
-                                },
-                                "02": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-02_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-02_events.tsv"
-                                },
-                                "03": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-03_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-03_events.tsv"
-                                },
-                                "04": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-04_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-04_events.tsv"
-                                },
-                                "05": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-05_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-05_events.tsv"
-                                },
-                                "06": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-06_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-06_events.tsv"
-                                },
-                                "07": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-07_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-07_events.tsv"
-                                },
-                                "08": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-08_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-08_events.tsv"
-                                },
-                                "09": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-09_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-09_events.tsv"
-                                },
-                                "10": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-10_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-10_events.tsv"
-                                },
-                                "11": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-11_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-11_events.tsv"
-                                },
-                                "12": {
-                                    "filename": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-12_bold.nii.gz",
-                                    "metadata": {
-                                        "RepetitionTime": 2.5,
-                                        "TaskName": "object viewing"
-                                    },
-                                    "events": "/Users/greg/code/INCF/BIDS-examples/ds105/sub-6/func/sub-6_task-objectviewing_run-12_events.tsv"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "anat",
+        "filename": "sub-2_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "anat",
+        "filename": "sub-3_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "anat",
+        "filename": "sub-4_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "anat",
+        "filename": "sub-5_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "anat",
+        "filename": "sub-6_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
     }
-}
+]

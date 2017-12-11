@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#", 
+  "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json", 
+  "type": "object", 
+  "additionalProperties": false, 
+  "properties": {
+    "dataset": {
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/dataset", 
+      "minLength": 1,
+      "format": "uri-reference",
+      "type": "string", 
+      "title": "dataset", 
+      "description": "The parent" 
+    },
+    "participant": {
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/participant", 
+      "minLength": 1,
+      "type": "string", 
+      "title": "participant", 
+      "description": "The corresponding participant"
+    }, 
+    "session": {
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/session", 
+      "minLength": 1,
+      "type": "string", 
+      "title": "session",
+      "description": "The corresponding session"
+    },
+    "modality": {
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/modality", 
+      "type": "string", 
+      "title": "modality", 
+      "description": "The corresponding modality", 
+      "enum": [
+        "func",
+				"anat",
+				"dwi",
+				"fmap"
+      ]
+    }, 
+    "filename": {
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/filename", 
+      "minLength": 1,
+      "type": "string", 
+      "title": "filename", 
+      "description": "The filename being described"
+    }, 
+    "filename_keys": {
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/filename_keys", 
+      "type": "array", 
+      "items": {
+        "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/filename_keys/items", 
+        "type": "string", 
+        "title": "filename keys", 
+        "description": "Keys in the filename not captured by other fields", 
+        "examples": [
+          "task-rest",
+					"acq-singleband",
+					"bold",
+					"T1w",
+					"inplaneT2",
+					"dwi"
+        ]
+      }
+    }
+  },
+  "required": ["dataset", "filename"]
+}
