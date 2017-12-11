@@ -5,30 +5,30 @@
   "additionalProperties": false, 
   "properties": {
     "dataset": {
-      "$id": "/properties/dataset", 
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/dataset", 
       "minLength": 1,
       "type": "string", 
       "title": "dataset", 
       "description": "The parent" 
     },
     "participant": {
-      "$id": "/properties/participant", 
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/participant", 
       "type": "string", 
       "title": "participant", 
       "description": "The corresponding participant"
     }, 
     "session": {
-      "$id": "/properties/session", 
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/session", 
       "type": "string", 
       "title": "session",
       "description": "The corresponding session"
     },
     "modality": {
-      "$id": "/properties/modality", 
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/modality", 
       "type": "string", 
       "title": "modality", 
       "description": "The corresponding modality", 
-      "examples": [
+      "enum": [
         "func",
 				"anat",
 				"dwi",
@@ -36,16 +36,16 @@
       ]
     }, 
     "filename": {
-      "$id": "/properties/filename", 
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/filename", 
       "type": "string", 
       "title": "filename", 
       "description": "The filename being described"
     }, 
     "filename_keys": {
-      "$id": "/properties/filename_keys", 
+      "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/filename_keys", 
       "type": "array", 
       "items": {
-        "$id": "/properties/filename_keys/items", 
+        "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/filename_keys/items", 
         "type": "string", 
         "title": "filename keys", 
         "description": "Keys in the filename not captured by other fields", 

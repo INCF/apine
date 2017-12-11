@@ -20,6 +20,23 @@ import json
 
 
 def validateApineObj(dataset_descriptor, apine=None):
+    """validateApineObj takes an Apine dataset descriptor, and validates its
+    compliance with the Apine schema (which can be specified from command-line,
+    or the default file used).
+
+    Parameters
+    ----------
+    dataset_descriptor : str
+        The path to the dataset Apine object.
+    apine : str
+        The path to the Apine schema definition, if you wish to use a definition
+        other than the default.
+
+    Returns
+    -------
+    bool
+        True if successful, False otherwise.
+    """
     try:
         dobj = json.load(open(dataset_descriptor))
 

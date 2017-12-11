@@ -20,6 +20,21 @@ import json
 
 # Crawls BIDS dataset and turns it into an Apine JSON object
 def generateApine(bids_dir, dset=None):
+    """generateApine takes a bids directory and optionally dataset name,
+    and generates an Apine JSON object.
+
+    Parameters
+    ----------
+    bids_dir : str
+        The BIDS data directory.
+    dset : str
+        The dataset name. If none is provided, the directory will be used.
+
+    Returns
+    -------
+    dict
+        Apine dictionary object.
+    """
     bids = BIDSLayout(bids_dir)
     apine = list()
 
