@@ -7,18 +7,21 @@
     "dataset": {
       "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/dataset", 
       "minLength": 1,
+      "format": "uri-reference",
       "type": "string", 
       "title": "dataset", 
       "description": "The parent" 
     },
     "participant": {
       "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/participant", 
+      "minLength": 1,
       "type": "string", 
       "title": "participant", 
       "description": "The corresponding participant"
     }, 
     "session": {
       "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/session", 
+      "minLength": 1,
       "type": "string", 
       "title": "session",
       "description": "The corresponding session"
@@ -37,6 +40,7 @@
     }, 
     "filename": {
       "$id": "https://github.com/INCF/apine/blob/master/apine.schema.json/filename", 
+      "minLength": 1,
       "type": "string", 
       "title": "filename", 
       "description": "The filename being described"
