@@ -1,0 +1,837 @@
+[
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "anat",
+        "filename": "sub-1_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "1",
+        "modality": "func",
+        "filename": "sub-1_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "anat",
+        "filename": "sub-2_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "2",
+        "modality": "func",
+        "filename": "sub-2_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "anat",
+        "filename": "sub-3_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "3",
+        "modality": "func",
+        "filename": "sub-3_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "anat",
+        "filename": "sub-4_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "4",
+        "modality": "func",
+        "filename": "sub-4_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "anat",
+        "filename": "sub-5_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "5",
+        "modality": "func",
+        "filename": "sub-5_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "anat",
+        "filename": "sub-6_T1w.nii.gz",
+        "filename_keys": [
+            "T1w"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-01_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-01",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-02_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-02",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-03_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-03",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-04_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-04",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-05_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-05",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-06_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-06",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-07_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-07",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-08_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-08",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-09_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-09",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-10_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-10",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-11_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-11",
+            "bold"
+        ]
+    },
+    {
+        "dataset": "ds105",
+        "participant": "6",
+        "modality": "func",
+        "filename": "sub-6_task-objectviewing_run-12_bold.nii.gz",
+        "filename_keys": [
+            "task-objectviewing",
+            "run-12",
+            "bold"
+        ]
+    }
+]
