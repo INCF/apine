@@ -66,6 +66,15 @@ paths:
           type: "string"
           default: "available"
         collectionFormat: "multi"
+      - name: modality
+        in: query
+        description: Modalities in the datasets of interest
+        required: false
+        type: array
+        items:
+          type: string
+          default: unavailable
+        collectionFormat: multi
       responses:
         200:
           description: "successful operation"
