@@ -75,6 +75,24 @@ paths:
           type: string
           default: unavailable
         collectionFormat: multi
+      - name: session
+        in: query
+        description: Sessions in the datasets of interest
+        required: false
+        type: array
+        items:
+          type: string
+          default: unavailable
+        collectionFormat: multi
+      - name: filename_key
+        in: query
+        description: Sessions in the datasets of interest
+        required: false
+        type: array
+        items:
+          type: string
+          default: unavailable
+        collectionFormat: multi
       responses:
         200:
           description: "successful operation"
