@@ -1,32 +1,52 @@
 <html>
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-<script>
-  fetch('results?'+ window.location.href.split('?')[1])
-  .then(function(response){
-    return response.json()
-  })
-  .then(function(data){
-    app.info = data; // iff vue created app and is using already
-    console.log(data)
-  })
-</script>
+<link rel="stylesheet" type="text/css" href="static/css/default.css" />
+<link rel="stylesheet" type="text/css" href="static/css/component.css" />
+<script src="static/js/modernizr.custom.js"></script>
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <br/>
-    </div>
+	  <header>
+		  <h1>Apine Data Discovery Portal<span>just click and start querying</span></h1>
+		</header>
+			<div class="main clearfix">
+				<!-- Optional columns for small components -->
+				<div class="column">
+					<p>Explore distributed datasets accessibly from the web.</p>
+					<p><a href="http://tympanus.net/codrops/?p=15599">Read the tutorial</a></p>
+				</div>
+				<div class="column">
+					<div id="sb-search" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Enter your query here..." type="text" value="" name="q" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+				</div>
+			</div>
+  </div>
+  <div class="container">
     <div class="row" id="app">
-      <h2>Your Query</h2>
-      <p>{{ info.queryvars }}</p>
+      <p v-if="info.invalid">{{ info.queryvars }}</p>
     </div>
   </div>
+  <script src="static/js/classie.js"></script>
+  <script src="static/js/uisearch.js"></script>
+  <script>
+    new UISearch( document.getElementById( 'sb-search' ) );
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+  <script>
+    fetch('results?'+ window.location.href.split('?')[1])
+    .then(function(response){
+      return response.json()
+    })
+    .then(function(data){
+      app.info = data; // iff vue created app and is using already
+      console.log(data)
+    })
+  </script>
   <script>
     var app = new Vue({
       el: '#app',

@@ -49,12 +49,18 @@ def parseQuery():
             print("cannot parse" + reqkey)
             invalid += [reqkey]
 
-    datadict = {"invalid": list(invalid),
-                "queryvars": list(queryvars),
-                "query": req}
-    return jsonify(datadict)
+    # If the query had invalid args, return without searching
+    if len(invalid) > 0:
+        datadict = {
+                        "invalid": list(invalid),
+                        "queryvars": list(queryvars),
+                        "query": req
+                   }
+        return jsonify(datadict)
 
-    # Perform query
-    # for dkey in dataobjs.keys():
-    #     dobj = dataobjs[dkey]
+    # If a valid query, perform search
+    for dkey in dataobjs.keys():
+        dobj = dataobjs[dkey]
 
+
+    return jsonify(dataobjs)
