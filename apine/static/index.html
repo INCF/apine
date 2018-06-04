@@ -1,0 +1,46 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script>
+  fetch('results?'+ window.location.href.split('?')[1])
+  .then(function(response){
+    return response.json()
+  })
+  .then(function(data){
+    app.info = data; // iff vue created app and is using already
+    console.log(data)
+  })
+</script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <br/>
+    </div>
+    <div class="row" id="app">
+      <h2>Your Query</h2>
+      <p>{{ info.queryvars }}</p>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        info: {
+          details: {
+            costs: null,
+          }
+        }
+      },
+      watch: {},
+      computed: {}
+    })
+  </script>
+</body>
+</html>
+
