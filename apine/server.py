@@ -39,7 +39,11 @@ def parseQuery():
     obj["query"] = {}
     obj["invalid"] = []
 
-    search_comps = obj["search"].replace(" ", "").split("&")
+    if obj["search"]:
+        search_comps = obj["search"].replace(" ", "").split("&")
+    else:
+        search_comps = []
+
     for compi in search_comps:
         exp = compi.split("=")
         lhs = exp[0]
