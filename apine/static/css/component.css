@@ -95,6 +95,12 @@
 	font-variant: normal;
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 }
 
 .sb-icon-search:before {

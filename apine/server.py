@@ -26,41 +26,78 @@ def index():
 
 @apPine.route("/results")
 def parseQuery():
+    obj = {}
     # Give schema and data objects nicer names
-    schema = apPine.config["schema"]
-    dataobjs = apPine.config["dataobjs"]
-    print(dataobjs.keys())
+    obj["schema"] = apPine.config["schema"]
+    obj["dataobjs"] = apPine.config["dataobjs"]
 
     # Extract valid query strings
-    queryvars = schema["properties"].keys()
-    print(queryvars)
+    obj["queryvars"] = list(obj["schema"]["properties"].keys())
 
     # Parse request
-    req = dict(request.args)
-    print(req)
-    query = []
-    invalid = []
-    for reqkey in req.keys():
+    obj["search"] = request.args.get("q")
+    obj["query"] = {}
+    obj["invalid"] = []
+
+    search_comps = obj["search"].replace(" ", "").split("&")
+    for compi in search_comps:
+        exp = compi.split("=")
+        lhs = exp[0]
+        rhs = exp[1] if len(exp) > 1 else "*"
+
         # If a valid query argument was provided... process it.
-        if reqkey in queryvars:
-            print(reqkey + "found!")
+        if lhs in obj["queryvars"]:
+            obj["query"][lhs] = rhs.split(",")
+
         # If an invalid argument was provided... ignore it loudly.
         else:
-            print("cannot parse" + reqkey)
-            invalid += [reqkey]
+            obj["invalid"] += [lhs]
 
-    # If the query had invalid args, return without searching
-    if len(invalid) > 0:
-        datadict = {
-                        "invalid": list(invalid),
-                        "queryvars": list(queryvars),
-                        "query": req
-                   }
-        return jsonify(datadict)
+    # If invalid query params, return without searching
+    if len(obj["invalid"]):
+        return jsonify(obj)
 
     # If a valid query, perform search
-    for dkey in dataobjs.keys():
-        dobj = dataobjs[dkey]
+    obj["summary"] = {}
+    # Summarize every collection...
+    for dkey in obj["dataobjs"]:
+        tmpobj = obj["dataobjs"][dkey]
+        tmpsummary = {
+                      var: [
+                            entry[var]
+                            for entry in tmpobj
+                            if entry.get(var)
+                            if type(entry)
+                           ]
+                      for var in obj["queryvars"]
+                     }
+        obj["summary"][dkey] = {
+                                k: list(set([i
+                                             for it in tmpsummary[k]
+                                             for i in it
+                                            ]))
+                                   if len(tmpsummary[k]) and type(tmpsummary[k][0]) == list
+                                   else list(set(tmpsummary[k]))
+                                for k in tmpsummary
+                               }
 
+    # Now, parse the summaries with 
+    print(obj["query"])
+    obj["result"] = []
+    for dkey in obj["summary"]:
+        tmpsummary = obj["summary"][dkey]
+        valid = True
+        for field in obj["query"]:
+            for item in obj["query"][field]:
+                if item == "*":
+                    print(field, dkey)
+                    if not tmpsummary.get(field):
+                        valid = False
+                        break
+                elif item not in tmpsummary[field]:
+                    valid = False
+                    break
+        if valid:
+            obj["result"] += [dkey]
 
-    return jsonify(dataobjs)
+    return jsonify(obj)

@@ -94,10 +94,12 @@
 					
 					if( !classie.has( self.el, 'sb-search-open' ) ) { // open it
 						ev.preventDefault();
+            console.log("open?");
 						self.open();
 					}
 					else if( classie.has( self.el, 'sb-search-open' ) && /^\s*$/.test( self.inputEl.value ) ) { // close it
 						ev.preventDefault();
+            console.log("closed?");
 						self.close();
 					}
 				}
