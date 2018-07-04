@@ -1,0 +1,143 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/css/default.css" />
+<link rel="stylesheet" type="text/css" href="static/css/component.css" />
+<script src="static/js/modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="container" style="background-color:#2c3e50; color:#eaeaea">
+	  <header>
+		  <h1>Apine Data Discovery Portal<span>just <div style="display:inline; color:#218dde" id="hovererer">click</div> and start querying</span></h1>
+		</header>
+		<div class="main clearfix">
+		  <!-- Optional columns for small components -->
+			<div class="column">
+			  <p>Explore distributed datasets accessibly from the web.</p>
+				<p><a href="https://github.com/INCF/Apine" target="_blank">Launch your own!</a></p>
+			</div>
+			<div class="column">
+				<div id="sb-search" class="sb-search">
+					<form>
+						<input class="sb-search-input" placeholder="Enter your query here..." type="text" value="" name="q" id="search">
+						<input class="sb-search-submit" type="submit" value="">
+						<span id="buttonon" class="sb-icon-search"></span>
+					</form>
+				</div>
+			</div>
+		</div>
+  </div>
+  <div id="app">
+    <div v-if="data.search != null" class="container" style="background-color:#ededed;width:90%;margin-left:5%; margin-top:2%; margin-bottom:2%">
+      <header style="padding-bottom:0px">
+		    <h2 v-if="data.invalid.length == 0" style="font-size:1.8em">Query Results</h2>
+		    <h2 v-else style="font-size:1.8em">Invalid Query</h2>
+      </header>
+		  <div class="main clearfix" style="left:20%">
+        <table class="table" style="color:#222; max-width:80%; min-width:40%;">
+          <tr style="border-bottom: 3px solid #222;">
+            <td><strong style="margin-right:20px;">Submitted Query</strong></td>
+            <td>{{data.search}}</td>
+          </tr>
+          <tr style="border-bottom: 3px solid #222">
+            <td><strong>Parsed Query</strong></td>
+            <td>
+              <table>
+                <tr>
+                  <td><strong>Field</strong></td>
+                  <td><strong>Value</strong></td>
+                </tr>
+                <tr v-for="(qval, qkey) in data.query">
+                  <td><span>{{qkey}}</span></td>
+                  <td><template v-for="it, idx in qval">{{it}}<template v-if="idx + 1 < qval.length">, </template></template></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr v-if="data.invalid.length > 0">
+            <td><strong>Invalid Arguments</strong></td>
+            <td>{{data.invalid}}</td>
+          </tr>
+          <tr v-else>
+            <td><strong>Results</strong></td>
+            <td>{{data.results}}</td>
+            <td><template v-for="res, idx in data.result">{{res}}<template v-if="idx + 1 < data.result.length">, </template></template></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top:2%; margin-bottom:2%">
+		  <div class="column" style="width:60%">
+		    <div class="main clearfix">
+		      <p style="text-align:center">Schema Information</p>
+          <table class="table" style="color:inherit">
+            <tr>
+              <td><strong>Field</strong></td>
+              <td><strong>Description</strong></td>
+              <td><strong>Type</strong></td>
+              <td><strong>Required</strong></td>
+            </tr>
+            <tr v-for="prop in data.queryvars">
+              <td><span>{{prop}}</span></td>
+              <td v-if="data.schema.properties[prop].type == 'array'"><span>{{data.schema.properties[prop].items.description}}</span></td>
+              <td v-else><span>{{data.schema.properties[prop].description}}</span></td>
+              <td><span>{{data.schema.properties[prop].type}}</span></td>
+              <td v-if="data.schema.required.includes(prop)"> &#10003; </td>
+              <td v-else> &#10007; </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+		  <div class="column" style="width:40%">
+		    <div class="main clearfix">
+		      <p style="text-align:center">Indexed Datasets <small style="height:1em;color:#e67e22">(# entries)</small></p>
+          <template v-for="(objs, name, idx) in data.dataobjs">
+            {{name.split('/')[name.split('/').length-1].split('.')[0]}}
+            <span style="color:#e67e22">({{objs.length}})</span>{{data.dataobjs.length}}<span v-if="idx +1 < Object.keys(data.dataobjs).length">, </span>
+          </template>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="static/js/classie.js"></script>
+  <script src="static/js/uisearch.js"></script>
+  <script>
+    var origbg = document.getElementById("buttonon").style.backgroundColor;
+    var newbg = "#218dde"
+    document.getElementById("hovererer").addEventListener("mouseover", function(){document.getElementById("buttonon").style.backgroundColor = newbg})
+    document.getElementById("hovererer").addEventListener("mouseout", function(){document.getElementById("buttonon").style.backgroundColor = origbg})
+  </script>
+  <script>
+    new UISearch( document.getElementById( 'sb-search' ) );
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>
+  <script>
+    if (window.location.href.includes('?')) {
+      var pattern = '?' + window.location.href.split('?')[1];
+    } else {
+      var pattern = '';
+    }
+    console.log(pattern);
+    fetch('results'+pattern)
+    .then(function(response){
+      return response.json()
+    })
+    .then(function(data){
+      app.data = data; // iff vue created app and is using already
+      console.log(data)
+    })
+  </script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        data: {}
+      },
+      watch: {},
+      computed: {
+      }
+    })
+  </script>
+</body>
+</html>
+

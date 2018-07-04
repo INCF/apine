@@ -1,2 +1,5 @@
-env/
 *.swp
+*.egg-info/
+.DS_Store
+env/
+__pycache__/
