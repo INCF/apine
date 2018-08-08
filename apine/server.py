@@ -19,6 +19,7 @@ import os
 
 apPine = Flask(__name__, static_url_path='/static')
 
+
 @apPine.route("/")
 def index():
     return apPine.send_static_file("index.html")
@@ -78,14 +79,14 @@ def parseQuery():
         obj["summary"][dkey] = {
                                 k: list(set([i
                                              for it in tmpsummary[k]
-                                             for i in it
-                                            ]))
-                                   if len(tmpsummary[k]) and type(tmpsummary[k][0]) == list
-                                   else list(set(tmpsummary[k]))
+                                             for i in it]))
+                                if len(tmpsummary[k]) and
+                                type(tmpsummary[k][0]) == list
+                                else list(set(tmpsummary[k]))
                                 for k in tmpsummary
                                }
 
-    # Now, parse the summaries with 
+    # Now, parse the summaries with
     print(obj["query"])
     obj["result"] = []
     for dkey in obj["summary"]:

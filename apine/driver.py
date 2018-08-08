@@ -12,6 +12,7 @@ import os
 
 from apine.server import apPine
 
+
 class ApineError(Exception):
     pass
 
@@ -62,7 +63,7 @@ def getData(dirname, **kwargs):
                                   " {0}".format(fname))
 
                 # ... otherwise, just add it to the stack.
-                else: 
+                else:
                     datadict[fname] = tmpdata
 
             except ApineError as e:
@@ -97,7 +98,7 @@ def main():
     parser.add_argument("--debug", "-x", action="store_true", help="Toggle"
                         " development mode.")
     results = parser.parse_args()
-    
+
     # Convert inputs to dictionary for easy function passing
     schema = results.schema
     datadir = results.datadir
