@@ -10,6 +10,13 @@ import json
 from collections import OrderedDict
 from argparse import ArgumentParser
 
+def toNumber(s):
+    try:
+        val = float(s)
+        return val
+    except ValueError:
+        return s
+
 
 def prepareData(csvfile):
     df = pd.read_csv(csvfile)
@@ -30,11 +37,16 @@ def getOptions(dataObj, column=None):
 
 def queryData(dataObj, query):
     query += ',' if ',' not in query else ''
-    cleanQuery = {q.split('=')[0]: q.split('=')[1]
+    cleanQuery = {q.split('=')[0].strip(' '): q.split('=')[1].strip(' ')
                   if len(q.split('=')) > 1 else True
                   for q in query.split(',')
-                  if len(q) > 0}
-    return cleanQuery
+                  if len(q.strip(' ')) > 0}
+
+    resu = dataObj
+    for cq in cleanQuery.keys():
+        val = toNumber(cleanQuery[cq])
+        resu = resu.loc[resu[cq] == val]
+    return resu
 
 
 def main(args=None):
