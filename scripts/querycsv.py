@@ -41,7 +41,6 @@ def queryData(dataObj, query):
                   if len(q.split('=')) > 1 else True
                   for q in query.split(',')
                   if len(q.strip(' ')) > 0}
-
     resu = dataObj
     for cq in cleanQuery.keys():
         val = toNumber(cleanQuery[cq])
